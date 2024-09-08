@@ -1,0 +1,51 @@
+meeting_year,meeting_type,meeting_number,meeting_name,paper_type,paper_number,paper_revision,paper_name,agendas,parties,url
+1970,ATCM,6,ATCM VI,wp,1,1,Provisional Agenda,ATCM 4,Japan,https://documents.ats.aq/ATCM6/wp/ATCM6_wp001_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,2,1,Corrigendum of the Provisional Agenda,ATCM 4,Japan,https://documents.ats.aq/ATCM6/wp/ATCM6_wp002_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,3,0,Exchange of Information on Telecommunications Facilities,ATCM 7,United States,https://documents.ats.aq/ATCM6/wp/ATCM6_wp003_e.pdf
+1970,ATCM,6,ATCM VI,wp,4,0,Draft recommendation. Specially Protected Area: Island Deception,ATCM 14,Chile,https://documents.ats.aq/ATCM6/wp/ATCM6_wp004_e.pdf
+1970,ATCM,6,ATCM VI,wp,4,1,"Specially Protected Area: Coppermine Peninsula, Robert Island",ATCM 14,Chile | United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp004_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,5,0,Draft Recommendation on Historic Monuments,ATCM 9,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp005_e.pdf
+1970,ATCM,6,ATCM VI,wp,5,1,Draft Recommendation on Historic Monuments,ATCM 9,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp005_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,6,0,Exchange of Information: Ocean Research Vessels,ATCM 1 | ATCM 16,Japan | United States,https://documents.ats.aq/ATCM6/wp/ATCM6_wp006_e.pdf
+1970,ATCM,6,ATCM VI,wp,6,1,Exchange of Information on Ocean Research Vessels,ATCM 16,United States,https://documents.ats.aq/ATCM6/wp/ATCM6_wp006_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,6,2,Exchange of Information on Oceanographic Research,ATCM 16,United States,https://documents.ats.aq/ATCM6/wp/ATCM6_wp006_rev2_e.pdf
+1970,ATCM,6,ATCM VI,wp,7,0,Experiments using Radioisotopes,ATCM 11,New Zealand,https://documents.ats.aq/ATCM6/wp/ATCM6_wp007_e.pdf
+1970,ATCM,6,ATCM VI,wp,8,0,Draft Recommendation on Advance Notification of the Launching of Scientific Research Rockets in the Antarctic Treaty Area,ATCM 15,Japan,https://documents.ats.aq/ATCM6/wp/ATCM6_wp008_e.pdf
+1970,ATCM,6,ATCM VI,wp,8,1,Advance Notification of the Launching of Scientific Research Rockets in the Antarctic Treaty Area,ATCM 15,Japan,https://documents.ats.aq/ATCM6/wp/ATCM6_wp008_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,8,2,Scientific Research Rockets,ATCM 15,Japan,https://documents.ats.aq/ATCM6/wp/ATCM6_wp008_rev2_e.pdf
+1970,ATCM,6,ATCM VI,wp,9,0,Amalgamated List of Historic Monuments in Antarctica,ATCM 9,Japan,https://documents.ats.aq/ATCM6/wp/ATCM6_wp009_e.pdf
+1970,ATCM,6,ATCM VI,wp,9,1,Amalgamated List of Historic Monuments in Antarctica,ATCM 9,Japan,https://documents.ats.aq/ATCM6/wp/ATCM6_wp009_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,10,0,Telecommunications,ATCM 7,Russian Federation,https://documents.ats.aq/ATCM6/wp/ATCM6_wp010_e.pdf
+1970,ATCM,6,ATCM VI,wp,10,1,Draft Recommendation on Telecommunications,ATCM 7,Russian Federation,https://documents.ats.aq/ATCM6/wp/ATCM6_wp010_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,10,2,Draft Recommendation on Telecommunications,ATCM 7,Russian Federation,https://documents.ats.aq/ATCM6/wp/ATCM6_wp010_rev2_e.pdf
+1970,ATCM,6,ATCM VI,wp,11,0,Antarctic Meteorology,ATCM 6,Russian Federation,https://documents.ats.aq/ATCM6/wp/ATCM6_wp011_e.pdf
+1970,ATCM,6,ATCM VI,wp,11,1,Antarctic Meteorology,ATCM 6,Russian Federation,https://documents.ats.aq/ATCM6/wp/ATCM6_wp011_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,11,2,Antarctic Meteorology,ATCM 6 | ATCM 7,Argentina | Australia | Russian Federation,https://documents.ats.aq/ATCM6/wp/ATCM6_wp011_rev2_e.pdf
+1970,ATCM,6,ATCM VI,wp,11,3,Antarctic Meteorology,ATCM 6,Argentina | Australia | Russian Federation,https://documents.ats.aq/ATCM6/wp/ATCM6_wp011_rev3_e.pdf
+1970,ATCM,6,ATCM VI,wp,12,0,"Co-ordinated schedule for meteorological traffic (Proposal 3 of the Second Antarctic Treaty Meeting on Telecommunications, Buenos Aires, 1969)",ATCM 6 | ATCM 7,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp012_e.pdf
+1970,ATCM,6,ATCM VI,wp,13,0,Review of Progress in Implementing the Agreed Measures for the Conservation of Antarctic Fauna and Flora,ATCM 8,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp013_e.pdf
+1970,ATCM,6,ATCM VI,wp,13,1,Review of Progress in Implementing the Agreed Measures for the Conservation of Antarctic Fauna and Flora,ATCM 8,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp013_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,14,0,"Statistics of animals killed and captured in the Antarctic Treaty Area, 1964-1969",ATCM 8,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp014_e.pdf
+1970,ATCM,6,ATCM VI,wp,15,0,Permits for entry to Specially Protected Areas,ATCM 8,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp015_e.pdf
+1970,ATCM,6,ATCM VI,wp,15,1,Permits for Entry to Specially Protected Areas,ATCM 8,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp015_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,16,0,"United Kingdom Conditions for visits of tourists to British Antarctic Survey stations at Argentine Islands, Deception Island and Hope Bay, 1968-69.",ATCM 8,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp016_e.pdf
+1970,ATCM,6,ATCM VI,wp,17,0,Opening Statements,ATCM 3,Japan,https://documents.ats.aq/ATCM6/wp/ATCM6_wp017_s.pdf
+1970,ATCM,6,ATCM VI,wp,18,0,Measures taken by French Authorities for the Conservation of Antarctic Fauna and Flora,ATCM 8,France,https://documents.ats.aq/ATCM6/wp/ATCM6_wp018_e.pdf
+1970,ATCM,6,ATCM VI,wp,19,0,Man's Impact on Antarctic Environment,ATCM 10,United States,https://documents.ats.aq/ATCM6/wp/ATCM6_wp019_e.pdf
+1970,ATCM,6,ATCM VI,wp,19,1,Man's Impact on Antarctic Environment,ATCM 10,Chile | United States,https://documents.ats.aq/ATCM6/wp/ATCM6_wp019_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,20,0,"Rules of Conduct for Tourists on board the ""Rio Tunuyan""",ATCM 12,Argentina,https://documents.ats.aq/ATCM6/wp/ATCM6_wp020_e.pdf
+1970,ATCM,6,ATCM VI,wp,21,0,Message to be sent to the Syowa Station,ATCM 12,Chile,https://documents.ats.aq/ATCM6/wp/ATCM6_wp021_e.pdf
+1970,ATCM,6,ATCM VI,wp,22,0,Coordination of Antarctic scientific investigations involving the use of radio-isotopes,ATCM 11,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp022_e.pdf
+1970,ATCM,6,ATCM VI,wp,22,1,Coordination of Antarctic scientific investigations involving the use of radio-isotopes,ATCM 11,New Zealand | United Kingdom | United States,https://documents.ats.aq/ATCM6/wp/ATCM6_wp022_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,23,0,The use of radio-isotopes in the Antarctic,ATCM 11,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp023_e.pdf
+1970,ATCM,6,ATCM VI,wp,23,1,The use of radio-isotopes in the Antarctic,ATCM 11,Australia | France | New Zealand | United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp023_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,24,0,Environmental Pollution and Biological Unbalance in the Antarctic,ATCM 10,Chile,https://documents.ats.aq/ATCM6/wp/ATCM6_wp024_e.pdf
+1970,ATCM,6,ATCM VI,wp,25,0,Effects of tourists and other non-government expeditions to the Antarctic Treaty area,ATCM 12,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp025_e.pdf
+1970,ATCM,6,ATCM VI,wp,25,1,Effects of tourists and other non-governmental expeditions to the Antarctic Treaty area,ATCM 12,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp025_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,26,0,Conservation data,ATCM 8,Australia | United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp026_e.pdf
+1970,ATCM,6,ATCM VI,wp,27,0,Seventh Antarctic Treaty Consultative Meeting,ATCM 18,Japan,https://documents.ats.aq/ATCM6/wp/ATCM6_wp027_e.pdf
+1970,ATCM,6,ATCM VI,wp,28,0,Specially Protected Areas,ATCM 13,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp028_e.pdf
+1970,ATCM,6,ATCM VI,wp,28,1,New Islands,ATCM 13,United Kingdom,https://documents.ats.aq/ATCM6/wp/ATCM6_wp028_rev1_e.pdf
+1970,ATCM,6,ATCM VI,wp,29,0,Draft Final Report of the Sixth Antarctic Treaty Consultative Meeting,ATCM 19,Japan,https://documents.ats.aq/ATCM6/wp/ATCM6_wp029_e.pdf
+1970,ATCM,6,ATCM VI,wp,30,0,Message from the Sixth Consultative Meeting to stations in the Antarctic,ATCM 17,Australia,https://documents.ats.aq/ATCM6/wp/ATCM6_wp030_e.pdf
+1970,ATCM,6,ATCM VI,wp,31,0,"Rules of behavior which all tourists on board the ""Rio Tunuyan"" should observe while visiting the Argentine stations in Antarctica",ATCM 8,Argentina,https://documents.ats.aq/ATCM6/wp/ATCM6_wp031_e.pdf

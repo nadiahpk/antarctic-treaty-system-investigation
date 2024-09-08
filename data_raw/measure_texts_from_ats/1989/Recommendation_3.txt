@@ -1,0 +1,108 @@
+Recommendation XV-3 (ATCM XV - Paris, 1989)
+
+HUMAN IMPACT ON THE ANTARCTIC ENVIRONMENT: WASTE DISPOSAL
+
+The Representatives,
+
+Recalling Article II of the Antarctic Treaty and Recommendations VI-4, VIII-11, XII-4, and XIII-4;
+
+Reaffirming the commitment of Consultative Parties to take measures to reduce the amount of wastes generated in Antarctica and to minimize the impact of wastes on the Antarctic environment, giving due consideration to the need to avoid detrimental effects on dependent or associated ecosystems outside the Antarctic Treaty Area;
+
+Recognizing that the Antarctic derives much of its scientific importance from its uncontaminated condition;
+
+Recognizing further that the support of science has an impact on the Antarctic environment which it is impractical to eliminate completely, but which, by good management can be limited;
+
+Noting that the increasing level and complexity of Antarctic operations have increased the quantity and variety of wastes produced, but that improvements in logistics and technology have increased the capacity to minimize wastes and their environmental impacts;
+
+Recognizing further that different environments, scales of operation, and logistic infrastructures will require different approaches to waste management, and that further technical developments can be expected to provide new solutions to waste management problems;
+
+Noting with appreciation the work of the Scientific Committee on Antarctic Research (SCAR) in response to Recommendation XIII-4, which invited National Antarctic Committees to undertake a comprehensive review of the waste disposal aspects of the Annex to Recommendation VIII-11, and to offer scientific advice regarding waste disposal procedures and standards that it is desirable and practical to achieve at coastal and inland stations and field camps;
+
+Desiring to revise the waste disposal aspects of the Code of Conduct annexed to Recommendation VIII-11 to take account of the recommendations of SCAR;
+
+Recommend to their Governments that they adopt the following practices and take measures within their competence necessary to ensure compliance with them;
+
+General obligation
+
+1.  The amount of wastes produced, or disposed of, in Antarctica shall be reduced to the maximum extent possible so as to minimize impact on the Antarctic environment and minimize interference with scientific research, or other legitimate uses of the Antarctic.
+
+Waste management planning
+
+2.  Each Government carrying out Antarctic activities shall establish a waste disposal classification as a basis for recording wastes and to facilitate studies aimed at evaluating the environmental impacts of operational and scientific activity.  Wastes produced may be classified as sewage and domestic liquid wastes (Group 1); other liquid wastes and chemicals, including fuels and lubricants (Group 2); solids to be combusted (Group 3); other solid wastes (Group 4); and radioactive materials (Group 5).  Source classification codes, which represent individual processes or functions logically associated with points of waste creation, may be used in auditing studies.
+
+3.  Each Government carrying out Antarctic activities shall, in respect of those activities, prepare and annually update:
+ (a) plans for waste management (including waste reduction, storage and disposal), specifying for each fixed site, for field camps generally, and for each vessel (other than small boats that are part of the operations of fixed sites or of vessels);
+     (i) programs for cleaning up existing waste disposal sites and abandoned work sites;
+    (ii) current and planned waste management arrangements;
+    (iii) current and planned arrangements for analyzing the environmental effects of Antarctic waste and waste management systems; and
+    (iv) other efforts to minimize any environmental effects of wastes and waste management.
+ (b) an inventory of locations of past activities (such as traverses, fuel depots, field bases, crashed aircraft) as far as is practicable, before the information is lost, so that such locations can be taken into account in planning future scientific programs (e.g. snow chemistry, pollutants in lichens, ice core drilling etc.).
+
+4.  Each Government carrying out Antarctic activities shall include the waste management plans referred to in paragraph 3 (a) above in the annual exchanges of information in accordance with Articles III and VII of the Antarctic Treaty and related Recommendations under Article IX of the Treaty.  The formats of such exchanges shall be determined by each Government pending development of standardized formats.  They shall also exchange the inventories referred to in paragraph 3 (b) above.
+
+5.  Each Government carrying out Antarctic activities shall ensure that its national Antarctic operators designate a waste management official to develop and monitor waste management plans.  In the field, this responsibility shall be delegated to an appropriate person at each site.
+
+6.  Those carrying out activities in Antarctica shall ensure that members of their expeditions receive training designed to limit the impact of their operations on the Antarctic environment and to inform them of required practices.
+
+7.  Pesticides, polychlorinated biphenols (PCBs), non-sterile soil or polystyrene beads, chips or similar forms of packaging shall not be sent to the Antarctic.  The use of poly-vinyl chloride (PVC) products in packaging shall be discouraged.
+
+8.  Those carrying out activities in Antarctica shall ensure that their expeditions to Antarctica are advised of any PVC products being provided.
+
+9.  Each Government shall establish a long-term program to remove existing abandoned fuel drums and fuel, where such removal is practical.  Such programs shall identify for clean up at the first opportunity those drum sites where the transport equipment which delivered the drums is no longer available in the same area.
+
+10.  Waste compaction, storage and incineration facilities shall be incorporated in the design and construction of ships engaged in or supporting Antarctic programs.
+
+Waste disposal
+
+11.  The following wastes shall be removed from the Antarctic Treaty area:
+ (a) radio-active materials;
+ (b) electrical batteries (including lead/acid, dry cell and other types);
+ (c) fuel, both liquid and solid; and
+ (d) wastes containing high levels of heavy metals or harmful persistent compounds.
+
+12.  The following wastes shall be removed from the Antarctic Treaty area unless they are incinerated in equipment which neutralizes the harmful emissions that would otherwise be produced:
+ (a) poly-vinyl chloride (PVC), polyurethane foam, polystyrene foam, rubber and lubricating oils which contain additives that are widely recognized as products that could produce harmful emissions;
+ (b) all other plastic wastes, including those of unknown composition.
+
+13.  The following wastes shall be removed from the Antarctic Treaty Area to the maximum extent practicable:
+ (a) liquid wastes, other than sewage and domestic liquid wastes;
+ (b) solid, non-combustible wastes; and
+ (c) fuel drums.
+
+14.  The following wastes shall be removed from Antarctic Treaty area unless incinerated, autoclaved or otherwise treated to be made sterile:
+ (a) residues of introduced animal carcasses;
+ (b) cultures of micro-organisms; and
+ (c) introduced avian products.
+
+15.  Combustible wastes, not removed from the Antarctic Treaty area, shall be burnt in incinerators designed to reduce harmful emissions to the maximum extent practicable.
+
+16.  All open burning of wastes shall be phased out.  Pending the completion of such phase out, when it is necessary to dispose of wastes by open burning:
+ (a) allowance shall be made for the wind and the type of wastes to be burnt to limit, as far as practicable, particulate deposition on land and to avoid such deposition over sensitive areas; and
+ (b) wastes to be burnt shall be stored in such as way as to prevent their dispersal by wind, or access and dispersal by scavengers.
+
+17.  All wastes to be removed from the Antarctic Treaty area, or otherwise disposed of, shall be stored in such a way as to prevent their dispersal by wind or access and dispersal by scavengers.
+
+18.  Solid non-combustible wastes, which cannot be removed to land disposal sites outside the Antarctic Treaty area and which are to be disposed of at sea, shall only be disposed of at selected dump sites in deep waters, within or outside the Antarctic Treaty area and only in accordance with the international Convention for the Prevention of Marine Pollution by the Dumping of Wastes and other Matter (London Dumping Convention), as well as any other relevant international agreements.
+
+19.  Dumping of any other wastes at sea shall be carried out in accordance with the London Dumping Convention.
+
+20.  Sewage, chemical wastes and, to the maximum extent practicable, domestic liquid wastes shall not be disposed of onto ice free land.  Sewage and domestic liquid wastes may be discharged directly into the ocean, provided that:
+ (a) such discharge be located, wherever practicable, where conditions exist for rapid dispersal;
+ (b) large quantities of such wastes (generated by approximately 30 individuals or more), receive at least primary treatment, such as maceration; and
+ (c) consideration be given to the advantages of treating very large quantities through systems, such as Rotating Biological Contractor Systems, to reduce biological oxygen demand (BOD) and suspended solids.
+
+21.  Vessels engaged in supporting Antarctic activities that are not fitted with incinerator facilities shall, to the maximum extent practicable, stockpile waste, excluding untreated sewage and domestic effluents, for appropriate disposal at stations, bases, deep waters sites or outside of the Antarctic Treaty area, provided that such wastes may be disposed of at stations or bases in Antarctica only in accordance with these practices, and at sea only in accordance with relevant Antarctic Treaty recommendations, the London Dumping Convention and any other relevant international agreements.  Any incineration of shipboard wastes in the Antarctic Treaty area shall be conducted in incinerators of the type which are designed to reduce harmful emissions to the maximum extent practicable.
+
+22.  Those carrying out activities in Antarctica shall to the maximum extent practicable clean up the waste disposal sites and abandoned work sites of their Antarctic activities.
+
+23.  Wastes generated at inland stations shall be removed from the area of such stations to the maximum extent practicable for disposal in accordance with the practices set out in this Recommendation.  Where this is not practicable, such wastes shall be concentrated in deep ice pits.  In planning the location of inland stations where deep ice pits are the only practicable alternative, sites on known ice flow lines which terminate at ice-free areas or in areas of high ablation shall be avoided.  
+
+24.  Wherever practicable, wastes generated at field camps shall be removed to their supporting stations, bases or ships for disposal in accordance with the practices set out in this Recommendation.
+
+Procedures
+
+25.  These practices shall be kept under continuing review so as to ensure that they are up-dated as necessary to reflect improvements in waste disposal technology and procedures and to ensure maximum protection of the Antarctic environment.  To this end it would be desirable for SCAR and the Managers of National Antarctic Programs to continue to consider problems, prospects and opportunities for cooperation in Antarctic waste management and to provide advice on appropriate steps that may be taken.
+
+26.  Governments should ensure that their nationals and vessels are subject to measures governing waste disposal in Antarctica that are no less effective in affording protection of the environment than those applicable to their nationals and vessels outside Antarctica.  Further, nothing in these practices shall be interpreted as replacing national environmental standards applicable to Antarctic activities, where such standards are stricter than those contained in these practices; nor shall any provision in these practices be interpreted as limiting governments from adopting stricter standards.
+
+27.  These practices shall not be interpreted or implemented in such fashion as to endanger human life.

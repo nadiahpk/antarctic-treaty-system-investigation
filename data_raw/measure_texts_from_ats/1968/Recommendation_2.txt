@@ -1,0 +1,69 @@
+Recommendation V-2 (ATCM V - Paris, 1968)
+
+MEASURES FOR IMPROVING ANTARCTIC  TELECOMMUNICATIONS
+
+Recognizing the need for improving the collection and distribution of meteorological data and other scientific information and for further improving Antarctic telecommunications;
+
+Considering the views of the World Meteorological Organisation, as expressed at the 18th and 20th Sessions of the WMO Executive Committee, on the desirability of setting up Antarctic Meteorological Centres and of determining provisionally their functions;
+
+Supporting the principle of the World Weather Watch;
+
+Considering the intention of some governments voluntarily to create, within a few years, such Antarctic Meteorological Centres at their Stations;
+
+The Representatives recommend to their governments that:
+
+1.  In view of the valuable information provided by WMO and SCAR to Consultative Parties, they continue to cooperate with the WMO through their Representatives thereto and with SCAR through their National Committees in defining future scientific requirements.
+
+2.  They consider the usefulness of creating Antarctic Meteorological Centres in the Antarctic.
+
+3.  They hold a meeting of telecommunications experts at Buenos Aires, Argentina, between 15 August and 15 September 1969, in accordance with Recommendation IV-24.  The date of this meeting should be arranged through diplomatic channels, taking into account relevant meetings of other international organizations which will be held in 1969 and the time required to translate and distribute the documents from such meetings.
+
+4.  Although it is expected that all Consultative Parties will participate, the meeting in Buenos Aires may proceed without the participation of them all provided all the Consultative Parties agree to that procedure and to the provisional agenda.  All Consultative Parties will communicate before 1 June 1969 to the host government their intentions as to sending experts.  Proposals emanating from the meeting will be sent to all Consultative Parties for their consideration.
+
+5.  One expert each from WMO, ITU, IOC and SCAR should be invited to attend as observers.  Invited observers may submit documents and make statements with the permission of the Chairman but they may not vote.  All experts from Consultative Parties attending will be members of their delegations.
+
+6.  The agenda for the meeting should be determined by the Consultative Parties through diplomatic channels and the agreed provisional agenda will be circulated by the host government through diplomatic channels one month prior to the opening of the meeting.
+
+7.  The results of the meeting should take the form of proposals on telecommunications unanimously agreed by the delegations of the Consultative Parties participating in the meeting.  These will be circulated by the host government to all Consultative Parties for consideration.  These proposals will constitute the report of the meeting.  Other conference documents may be appended for informations as annexes to the report with the consent of all delegations present.  The proposals would not become measures under Article IX of the Antarctic Treaty but any Consultative Parties may submit any matter arising from this meeting to a subsequent Consultative Meeting.
+
+8.  Information should be exchanged through diplomatic channels on the following aspects of telecommunications procedures at least one month prior to the opening of the Meeting:
+
+ (i)  existing networks, traffic loads and channel capacity on each route;
+
+ (ii) shortcomings in existing networks and channels;
+
+ (iii) present traffic carried on each route
+
+      a)  Administrative and operational traffic
+      b)  Meteorological traffic
+      c) Other scientific traffic;
+
+ (iv) existing time schedules for meteorological transmission
+
+      a) Broadcast
+      b) Point to point traffic
+
+9.  The fields of discussion at the meeting should include, inter alia:
+
+ (i) New telecommunications traffic requirements submitted by Consultative Parties, WMO, IOC and SCAR, the capacity of the existing facilities and the effect of these new requirements on the existing facilities, taking into account the report of the Antarctic Treaty Meeting on Telecommunications held in Washington in 1963 and present prevailing conditions;
+
+ (ii) Estimates of requirements for the near future and further projections if possible;
+
+ (iii) Procedure for amending telecommunications arrangements from time to time to meet changing conditions;
+
+ (iv) New telecommunications techniques which might be introduced into the Antarctic to meet future requirements;
+
+ (v) Preparation of a standard format for the exchange of information on telecommunications facilities under Article VII of the Antarctic Treaty.
+
+___________________________
+Note 1: Paragraph 8 "...opening of the Meeting:
+
+ (i)  existing networks, traffic loads and channel capacity on each route;
+ (ii) shortcomings in existing networks and channels;
+ (iii) present traffic carried on each route..."
+
+original "...opening of the Meeting:
+
+     existing networks, traffic loads and channel capacity on each route;
+     shortcomings in existing networks and channels;
+  iii) present traffic carried on each..."

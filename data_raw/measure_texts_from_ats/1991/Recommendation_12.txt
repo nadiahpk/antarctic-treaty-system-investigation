@@ -1,0 +1,15 @@
+Recommendation XVI-12 (ATCM XVI - Bonn, 1991)
+
+ACCESSIBILITY OF ANTARCTIC GEOPHYSICAL DATA
+
+The Representatives,
+
+Recalling that Article 3 of the Antarctic Treaty requires that scientific data be exchanged and made freely available;
+
+Noting that Article 7 of the Protocol on Environmental Protection to the Antarctic Treaty signed in Madrid on 4 October, 1991 prohibits any activity relating to mineral resources other than scientific research;
+
+Aware that solid earth science disciplines have made major contributions to the understanding of our planet, and that such work has long been recognised as having global significance as applied inter alia to studies of plate tectonics and Antarctic glacial history including its effects on world climate;
+
+Reiterating the importance of pursuing geological and geophysical research and their commitment to the disclosure, availability and timely publication of scientific results;
+
+Recommend to their Governments that the Seismic Data Library System (SDLS) approved by the SCAR Executive in 1991 and described in the report "A SCAR Seismic Data Library System for Co-operative Research" of the SCAR Group of Specialists on the Evolution of Cenozoic Paleoenvironments of the Southern High Latitudes (GSC) - Antarctic Offshore Acoustic Stratigraphy Project (ANTOSTRAT) be implemented. The SDLS requires inter alia that digital data from multichannel seismic reflection surveys be sent to the SDLS within four years of collection and eight years after collection to the World Data Centres or other archives for general dissemination.

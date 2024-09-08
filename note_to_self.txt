@@ -1,0 +1,8 @@
+Up to ATCM 19 (1995) inclusive, the pdfs have no layer of text, need LLM OCR 
+From ATCM 20-22 (1996-1998) inclusive, the pdfs have a layer of text, and it's passable but not perfect quality
+From ATCM 23 (1997) onwards inclusive, the pdfs have a high-quality layer of text under them, and OCR should be fairly straightforward.
+
+I believe the ATS website has labelled Working Group and Secretariat Papers in 1983 as submitted by Australia, and one of the UK ones is actually Australian.
+Look for other instances of mislabelling.
+
+Find gaps in WP numbering as first step to finding WPs missing from ATS website
