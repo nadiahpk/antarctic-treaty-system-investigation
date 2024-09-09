@@ -1,13 +1,5 @@
 search:
 https://heritage.utas.edu.au/index.php/informationobject/browse?view=card&sq0=nineteenth&sf0=title&so1=and&sq1=working+paper&sf1=title&collection=%2Findex.php%2Fantarctic-treaty-consultative-meeting-atcm-documents-2&onlyMedia=1&topLod=0&rangeType=inclusive
 
-ATCM_XIX_list_of_documents.pdf
-https://heritage.utas.edu.au/uploads/r/antarctic-documents-database/1/d/9/1d9adf597db1373e480b0440f760bc6a798f8ae077fb0333740def98d9517ee6/aab308fd-e6b5-4482-a04e-2b7322668ead-AU-ATADD-3-BB-AQ-504.pdf?token=711062b304a2d9e049a20244764e8d80eaacdc1bce1c38a2e2e0e772d220e13d
-
 ATCM XIX WP 28 that is pencilled in: https://heritage.utas.edu.au/index.php/twenty-second-antarctic-treaty-consultative-meeting-tromso-working-paper-28-antarctic-treaty-secretariat-xxii-atcm-wp28-argentina
 
-ATCM_XXII_list_of_documents.pdf
-https://heritage.utas.edu.au/uploads/r/antarctic-documents-database/f/7/b/f7b9b5ef645b7d79cdb5ce6fe2f09b237e51cd455142095438898656dcc75f2f/c2a27f62-9186-4d0b-b9a9-eb176d352fa6-AU-ATADD-3-BB-AQ-565.pdf?token=d69935440e20cf38c04a41fafb9f5a82e898675801269a82d94659aa929cd26f
-
-ATCM_XXIV_list_of_documents.pdf
-https://documents.ats.aq/ATCM24/ad/ATCM24_ad001_e.pdf
