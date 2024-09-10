@@ -1,0 +1,73 @@
+digraph {
+	graph [rankdir=TD];
+	node [label="\N", shape=rectangle, color="black"];
+
+    // legend - separate out at end
+    subgraph cluster_legend {
+        label="Legend";
+        leg3 [label="by hand", fillcolor="#ffcccc", style="rounded, filled"];
+        leg5 [label="scripts, fncs w. LLM", fillcolor="#cceeff", style="rounded, filled"];
+        leg2 [label="scripts, fncs", fillcolor="#bbccee", style="rounded, filled"];
+        leg4 [label="multiple data files", fillcolor="lightgray", style="filled", shape=folder];
+        leg1 [label="processed data", fillcolor="#eeeebb", style="filled"];
+        leg0 [label="raw data", fillcolor="#ccddaa", style="filled"];
+    }
+
+    // nodes
+    { // databases
+        node [fillcolor="lightgray", style="filled", shape="cylinder"];
+        ATS [label="\nATS\ndatabase"];
+        ATAAD [label="\nATAAD\ndatabase"];
+        {rank="source" ATS ATAAD};
+    }
+    { // Carlo's package
+        node [style="rounded, filled", fillcolor="lightgray"];
+        adg [label="github.com/carlohamalainen/\nantarctic-database-go"];
+    }
+    { // scripts and functions
+        node [style="rounded, filled"];
+        { // No LLM
+            node [fillcolor="#bbccee"];
+            getwps [label="Collect WP info incl.\ntitle, authors, agenda items\n\ngetwps"];
+            getmeasures [label="Collect Recommendations and\nMeasures, info and text\n\ngetmeasures"];
+            find_wps_missing [label="Identify WPs missing\nfrom ATS database\n\nfind_wps_missing.py"];
+        }
+        { // LLM
+            node [fillcolor="#cceeff"];
+        }
+    { // raw data
+        node [fillcolor="#ccddaa", style="filled"];
+        wp_infos_ats [label="Info about WPs in ATS\n\l└── wp_infos_from_ats\l     ├── wps_1961.csv\l     ├── ...\l     └── wps_2024.csv\l",shape="folder"];
+        measure_infos_ats [label="Info about measures in ATS\n\l├── measure_infos_from_ats\l│    ├── measures_1961.csv\l│    ├── ...\l│    ├── measures_2024.csv\l",shape="folder"];
+        measure_texts_ats [label="Full text of measures as\n found on ATS website\n\l├── measure_texts_from_ats\l│    ├── 1961\l│    │    ├── Recommendation_I.txt\l│    │    ├── Recommendation_II.txt\l│    │    ├── ...\l│    ├── ...\l│    ├── 2024\l",shape="folder"];
+        list_of_docs_pdf [label="Documents that provide\na list of documents\nsubmitted to each ATCM\n\l├── list_of_docs\l│    ├── list_of_docs_1961.pdf\l│    ├── ...\l│    ├── list_of_docs_2001.pdf\l",shape="folder"];
+        list_of_docs_csv [label="Info about each list of documents\nfound including nbr WPs listed.\n\n├── list_of_docs\l│    ├── list_of_docs.csv\l"];
+        wps_missing_template [label="A template listing year, meeting,\nID number of missing WPs.\n\nwps_missing_from_ats/\nwps_missing_template.csv"];
+        wps_missing_csv [label="Information about WPs missing\nfrom ATS database\n\nnwps_missing_from_ats/\nwps_missing_{date}.csv"];
+    }
+
+    { // processed-data nodes
+        node [fillcolor="#eeeebb", style="filled"];
+        node_name [label="words\n\nfile.txt"];
+    }
+    }
+    { // by hand
+        node [fillcolor="#ffcccc", style="rounded, filled"];
+        search_list_of_docs [label="Search for documents that list\nWPs submitted to early\nATCMs (1961--2004)"];
+        read_list_of_docs [label="Cross-check list of docs,\ncompile info about, incl.\ncount from each meeting"];
+        fill_in_missing_wps [label="Fill in missing WP info, incl.\ntitle, authors, agenda items"];
+    }
+    { // Result
+        node [shape="plaintext"];
+        dot_graph [label="Graph of connections between\n WPs, Recs, past and future meetings", fontsize="16"];
+    }
+
+    // connections
+    ATS -> adg -> {getwps, getmeasures};
+    getwps -> wp_infos_ats;
+    getmeasures -> {measure_infos_ats, measure_texts_ats};
+    {ATS, ATAAD} -> search_list_of_docs -> list_of_docs_pdf;
+    {wp_infos_ats, list_of_docs_pdf} -> read_list_of_docs -> list_of_docs_csv;
+    {wp_infos_ats, list_of_docs_csv} -> find_wps_missing -> wps_missing_template;
+    {wps_missing_template, list_of_docs_pdf} -> fill_in_missing_wps -> wps_missing_csv;
+}

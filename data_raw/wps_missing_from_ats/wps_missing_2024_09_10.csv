@@ -1,0 +1,78 @@
+meeting_year,meeting_type,meeting_number,meeting_name,paper_type,paper_number,paper_revision,paper_name,agendas,parties,url,notes
+1961,ATCM,1,ATCM I,wp,10,,,,,,Marked “cancelled” in list_of_docs_1961.pdf
+1968,ATCM,5,ATCM V,wp,5,,,,,,Marked “Document not available” in list_of_docs_1968.pdf
+1968,ATCM,5,ATCM V,wp,6,,,,,,Marked “Document not available” in list_of_docs_1968.pdf
+1968,ATCM,5,ATCM V,wp,7,,,,,,Marked “Document not available” in list_of_docs_1968.pdf
+1968,ATCM,5,ATCM V,wp,23,0,Records of the Antarctic Treaty Meeting of Experts on Logistics,,,,paper_name from list_of_docs_1968.pdf
+1975,ATCM,8,ATCM VIII,wp,7,,,,,,Marked “This number does not appear to have been used” in list_of_docs_1975.pdf
+1977,ATCM,9,ATCM IX,wp,2,0,"Final Report of the Special Prepatory Meeting for the Ninth Consultative Meeting of the Antarctic Treaty, Paris",,,,paper_name from list_of_docs_1977.pdf
+1977,ATCM,9,ATCM IX,wp,86,0,"Opening Statement by Dr J A Heap, Delegation of the United Kingdom",,,,paper_name from list_of_docs_1977.pdf
+1979,ATCM,10,ATCM X,wp,45,,,,,,Marked “No document issued under this number” in list_of_docs_1979.pdf
+1985,ATCM,13,ATCM XIII,wp,33,0,Re-issue of WP 31 Operation of the Antarctic Treaty System - Draft Recommendation,,,,paper_name from list_of_docs_1985.pdf
+1989,ATCM,15,ATCM XV,wp,18,0,Formulation of a strategy to prevent marine pollution and provide maritime safety in Antarctica,,Uruguay,,"paper_name, parties from list_of_docs_1989.pdf; updated from “USSR” to match rest of data"
+1989,ATCM,15,ATCM XV,wp,22,0,White book,,Chile,,"paper_name, parties from list_of_docs_1989.pdf; updated from “USSR” to match rest of data"
+1989,ATCM,15,ATCM XV,wp,25,0,Surveillance de l’environnement en Antarctique,,,,paper_name from list_of_docs_1989.pdf (no parties listed)
+1989,ATCM,15,ATCM XV,wp,27,0,Draft recommendation re waste disposal,,Russian Federation,,"paper_name, parties from list_of_docs_1989.pdf; updated from “USSR” to match rest of data"
+1989,ATCM,15,ATCM XV,wp,30,0,Working paper on tourism,,Germany,,"paper_name, parties from list_of_docs_1989.pdf"
+1989,ATCM,15,ATCM XV,wp,43,0,Compte rendu des visites effectuees sur le Territoire Antarctique Australien,,,,"paper_name, parties from list_of_docs_1989.pdf"
+1989,ATCM,15,ATCM XV,wp,47,,,,,,Marked “missing” in list_of_docs_1989.pdf
+1989,ATCM,15,ATCM XV,wp,56,0,Historic monuments,,Chile,,"paper_name, parties from list_of_docs_1989.pdf"
+1989,ATCM,15,ATCM XV,wp,62,,,,,,Marked “missing” in list_of_docs_1989.pdf
+1991,ATCM,16,ATCM XVI,wp,7,,,,,,Empty and marked with question mark and “Not issued” in list_of_docs_1991.pdf
+1991,ATCM,16,ATCM XVI,wp,46,,,,,,"From list_of_docs_1991.pdf: “this paper not formally ciculated: the text of it appears in WP57 as the Annex on area protection and management"""
+1995,ATCM,19,ATCM XIX,wp,1,0,Measures adopted under Article IX of the Antarctic Treaty,,Belgium | Chile | France | Germany | United Kingdom,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,2,0,Inspections under the Antarctic Treaty inspection checklists,,United Kingdom,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,3,0,Environmental Impact Assessment: Circulation of Information,,United Kingdom,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,3,1,Environmental Impact Assessment: Circulation of Information,,United Kingdom,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,4,0,Draft Measure: Antarctic Protected Area System: New historic sites and monuments,,United Kingdom,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,5,0,"Antarctic protected area system—specially protected areas revised descriptions and proposed management plans for specially protected areas Moe Island and Southern Powell Island and adjacent islands
+",,United Kingdom,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,6,0,Tourism and non-governmental activities in the Antarctic Treaty area,,Argentina | Chile | New Zealand | United Kingdom,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,7,0,The Antarctic protected area system revised management plans for SPAs and SSSIs,,New Zealand,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,8,0,Historic sites and monuments,,New Zealand | Norway | United Kingdom,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,8,1,Historic sites and monuments,,New Zealand | Norway | United Kingdom,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,9,0,New historic sites and monuments: Suggested guidelines for the designation of historic sites,,New Zealand,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,10,0,Pre-sessional document circulation document handling: Submission and circulation,,New Zealand,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,12,0,The organization of Antarctic Treaty Consultative Meetings,,Belgium | France | Germany | United Kingdom,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,14,0,Extension of management plans for sites of special interest nos. 16 and 17,,Australia,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,16,0,Antarctic specially protected area Point-Geologie Archipelago,,France,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,17,0,Applicability of developments in the Arctic to the Antarctic,,Chile,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,17,1,Applicability of developments in the Arctic to the Antarctic,,Canada | Chile,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,19,0,The need for operational definitions of the terms used in the protocol to the Antarctic Treaty on the protection of the environment,,Chile,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,20,0,Relation between the protocol on environment protection to the Antarctic Treaty and other international agreements of a global scope,,Chile,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,21,0,The Antarctic protected areas systems,,Chile,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,21,1,The Antarctic protected areas systems,,Chile | Norway,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,22,0,Specific environmental protection measures,,Chile,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,23,0,Waste dump inspection checklist,,Australia,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,24,0,Environmental monitoring progress report to XIXth ATCM,,SCAR | COMNAP,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,25,0,Incinerator emissions,,SCAR,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,26,0,Ecosystem matrices,,SCAR,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,27,0,Visits to protected areas,,SCAR,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,28,0,Format of management plans for protected areas,,SCAR,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,29,0,Conservation of Antarctic flora and fauna,,Australia,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,29,1,Introduction and continued presence of non-native species of animals and plants,,Australia,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,30,0,Liability annex to the protocol on environmental protection in the Antarctic Treaty,,Germany,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,31,0,Report of the TEWG to the XIX ATCM,,Secretariat,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1995,ATCM,19,ATCM XIX,wp,32,,,,,,Unremarked-upon gap in the list in list_of_docs_1995.pdf
+1995,ATCM,19,ATCM XIX,wp,33,,,,,,Unremarked-upon gap in the list in list_of_docs_1995.pdf
+1995,ATCM,19,ATCM XIX,wp,34,,,,,,Unremarked-upon gap in the list in list_of_docs_1995.pdf
+1995,ATCM,19,ATCM XIX,wp,35,0,Draft final report of the XIX ATCM,,Secretariat,,"paper_revision, paper_name, parties from list_of_docs_1995.pdf and list_of_docs_1995.txt"
+1998,ATCM,22,ATCM XXII - CEP I,wp,9,,Document de Travail sur une Proposition de Decision,18,France,,
+1998,ATCM,22,ATCM XXII - CEP I,wp,28,,Antarctic Treaty Secretariat,5c,Argentina ,https://heritage.utas.edu.au/index.php/twenty-second-antarctic-treaty-consultative-meeting-tromso-working-paper-28-antarctic-treaty-secretariat-xxii-atcm-wp28-argentina ,Pencilled-in list_of_docs_1998.pdf; Found in ATAAD and saved 39bb817b-55fb-459f-9ed6-b48ebb3f3ff7-AU-ATADD-3-BB-AQ-569.pdf
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,1,,Working practices and procedures of the Consultative Meetings and their Working Groups,ATCM 4,Germany,,"paper_name, agendas, parties from list_of_docs_2001.pdf; converted to text using Claude list_of_docs_2001.csv"
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,3,,Inspecciones en el marco del Articulo VII del Tratado Antártico,ATCM 14,Argentina,,"paper_name, agendas, parties from list_of_docs_2001.pdf; converted to text using Claude list_of_docs_2001.csv"
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,6,,"Annex VI to the Protocol on Environmental Protection to the Antarctic Treaty ""Prevention of Damage, Contingency Planning and Liability for Failure to Provide for Emergency Response Action""",ATCM 10,United States,,"paper_name, agendas, parties from list_of_docs_2001.pdf; converted to text using Claude list_of_docs_2001.csv"
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,8,,"Antarctic Protected Areas System: Revised Management Plans for:
+- Specially Protected Area No 8 – Dion Islands, Marguerite Bay
+- Specially Protected Area No 9 – Green Island, Berthelot Islands
+- Site of Special Scientific Interest No 29 – Ablation Point / Ganymede Heights, Alexander Island
+- Site of Special Scientific Interest No 31 – Mount Flora, Hope Bay
+with attachments (totally: 1+4 docs+10 maps=15)",CEP 4g,United Kingdom,,"paper_name, agendas, parties from list_of_docs_2001.pdf; converted to text using Claude list_of_docs_2001.csv"
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,17,,"Chairman's Draft of the Annex VI to the Protocol on Environmental Protection to the Antarctic Treaty ""Liability arising from environmental emergencies""",ATCM 10,New Zealand,,"paper_name, agendas, parties from list_of_docs_2001.pdf; converted to text using Claude list_of_docs_2001.csv"
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,18,,"Status of Recommendations, Measures, Decisions and Resolutions of the ATCM",ATCM 4,Netherlands,,"paper_name, agendas, parties from list_of_docs_2001.pdf; converted to text using Claude list_of_docs_2001.csv"
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,27,,"Russian studies of the Antarctic 2000 under the Subprogram ""Study and Research of the Antarctic""",ATCM 15,Russian Federation,,"paper_name, agendas, parties from list_of_docs_2001.pdf; converted to text using Claude list_of_docs_2001.csv"
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,28,,"Proposal on creating a four-language explanatory glossary of the terms , definitions and abbreviations used in the Antarctic Treaty Documentation",ATCM 20,Russian Federation,,"paper_name, agendas, parties from list_of_docs_2001.pdf; converted to text using Claude list_of_docs_2001.csv"
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,30,,Classification of the Antarctic Zone of the Southern Ocean Based on Ice Navigation Conditions,ATCM 11,Russian Federation,,"paper_name, agendas, parties from list_of_docs_2001.pdf; converted to text using Claude list_of_docs_2001.csv"
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,35,,ATCM Secretariat,ATCM 4,New Zealand | Italy,,"paper_name, agendas, parties from list_of_docs_2001.pdf; converted to text using Claude list_of_docs_2001.csv"
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,36,,Proyecto de Medida para la creación de la Secretaria del Tratado Antartico,ATCM 4,Argentina | Brazil | Chile | Peru | Uruguay,,"paper_name, agendas, parties from list_of_docs_2001.pdf; converted to text using Claude list_of_docs_2001.csv"
+2002,ATCM,25,ATCM XXV - CEP V,wp,24,,CEP and information exchange,CEP 8a,Norway,,"paper_name, agendas, parties from list_of_docs_2001.pdf; converted to text using Claude list_of_docs_2001.csv"
