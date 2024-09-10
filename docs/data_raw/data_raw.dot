@@ -43,7 +43,8 @@ digraph {
         list_of_docs_pdf [label="Documents that provide\na list of documents\nsubmitted to each ATCM\n\l├── list_of_docs\l│    ├── list_of_docs_1961.pdf\l│    ├── ...\l│    ├── list_of_docs_2001.pdf\l",shape="folder"];
         list_of_docs_csv [label="Info about each list of documents\nfound including nbr WPs listed.\n\n├── list_of_docs\l│    ├── list_of_docs.csv\l"];
         wps_missing_template [label="A template listing year, meeting,\nID number of missing WPs.\n\nwps_missing_from_ats/\nwps_missing_template.csv"];
-        wps_missing_csv [label="Information about WPs missing\nfrom ATS database\n\nnwps_missing_from_ats/\nwps_missing_{date}.csv"];
+        wps_missing_csv [label="Information about WPs missing\nfrom ATS database\n\nwps_missing_from_ats/\nwps_missing_{date}.csv"];
+        wp_pdfs [label="Working Paper pdfs\n\n└── wp_pdfs\l     ├── 1968\l     ├── 1989\l     ├── 1995\l     └── 1998\l",shape="folder"];
     }
 
     { // processed-data nodes
@@ -70,4 +71,6 @@ digraph {
     {wp_infos_ats, list_of_docs_pdf} -> read_list_of_docs -> list_of_docs_csv;
     {wp_infos_ats, list_of_docs_csv} -> find_wps_missing -> wps_missing_template;
     {wps_missing_template, list_of_docs_pdf} -> fill_in_missing_wps -> wps_missing_csv;
+    fill_in_missing_wps -> wp_pdfs -> fill_in_missing_wps;
+    ATAAD -> wp_pdfs;
 }

@@ -1,1 +1,4 @@
 delete_me/
+
+# To be polite to Github. The urls can be found in wp_infos_*.
+data_raw/wp_pdfs/
