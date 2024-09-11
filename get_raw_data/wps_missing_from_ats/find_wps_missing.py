@@ -1,6 +1,11 @@
-# There is data missing from the ATS website about Working Papers. As
-# a first approximation, find gaps in the WP-number sequences
-# (e.g., WP1, WP2, WP4, ...)
+# There are Working Papers missing from the ATS website. Here, I 
+# identify which WPs are missing by looking for gaps in the 
+# WP-number sequence. I combine two methods:
+#  1. If I know the maximum WP number for that year (list_of_docs.csv),
+#     I make a list of WP numbers missing up to that max number; or
+#  2. If I don't know the maximum WP number, I assume the maximum 
+#     is the maximum I found in the ATS database, and make a list of
+#     WP numbers missing up to that assumed maximum.
 
 import os
 import pandas as pd
@@ -24,14 +29,12 @@ df = pd.read_csv(fname)
 df = df[~np.isnan(df["max_wp_nbr"])]
 max_wp_nbrD = {year: int(nbr) for year, nbr in zip(df["year"], df["max_wp_nbr"])}
 
-# list of all CSV files containin wp information from ATS website
+# list of all CSV files containing WP info that I collected from ATS website
 wps_fnames = os.listdir(os.path.join(raw_data_dir, "wp_infos_from_ats"))
 
 # for each CSV, find gaps in the working-paper-number sequence
 
-# gaps in the wp-sequence
-missingD = dict() # {year_1: "missing_nbr_1 | missing_nbr_2 | ...", year_2: ...}
-
+missingD = dict() # storage
 for wps_fname in wps_fnames:
     # import wp info as a dataframe
     file_path = os.path.join(raw_data_dir, "wp_infos_from_ats", wps_fname)
@@ -50,8 +53,10 @@ for wps_fname in wps_fnames:
     all_nbrs = set(range(1, max_wp_nbr + 1))
     missing = all_nbrs - wp_nbrs
 
-    # if any found missing, make a note of them and 
+    # if any found missing, store them for later
     if missing:
+        # also storing the first row of the wp_infos CSV, which has
+        # things like the meeting year, meeting type, etc.
         missingD[year] = {
             "default_row": dict(df.iloc[0]),
             "missing_wps": sorted(missing),
@@ -85,20 +90,8 @@ for year in years:
         }
         list_of_D_for_df.append(outD)
 
-# write it to a "template" file
-# ---
-
-"""
-# get ordered header
-file_path = os.path.join(raw_data_dir, "wp_infos_from_ats", wps_fnames[0])
-df = pd.read_csv(file_path)
-header = sorted(df.columns)
-"""
-
-# construct dataframe for ease of writing csv
+# construct dataframe for ease of writing csv and write
 df = pd.DataFrame.from_records(list_of_D_for_df)
-
-# write
 df.to_csv(
     os.path.join(raw_data_dir, "wps_missing_from_ats/wps_missing_template.csv"), 
     index=False
