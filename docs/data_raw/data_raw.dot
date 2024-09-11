@@ -6,7 +6,7 @@ digraph {
     subgraph cluster_legend {
         label="Legend";
         leg3 [label="by hand", fillcolor="#ffcccc", style="rounded, filled"];
-        leg5 [label="scripts, fncs w. LLM", fillcolor="#cceeff", style="rounded, filled"];
+        // leg5 [label="scripts, fncs w. LLM", fillcolor="#cceeff", style="rounded, filled"];
         leg2 [label="scripts, fncs", fillcolor="#bbccee", style="rounded, filled"];
         leg4 [label="multiple data files", fillcolor="lightgray", style="filled", shape=folder];
         leg1 [label="processed data", fillcolor="#eeeebb", style="filled"];
@@ -31,6 +31,7 @@ digraph {
             getwps [label="Collect WP info incl.\ntitle, authors, agenda items\n\ngetwps"];
             getmeasures [label="Collect Recommendations and\nMeasures, info and text\n\ngetmeasures"];
             find_wps_missing [label="Identify WPs missing\nfrom ATS database\n\nfind_wps_missing.py"];
+            get_fr_pdfs [label="Download PDFs of\nFinal Reports\n\nget_fr_pdfs.py"];
         }
         { // LLM
             node [fillcolor="#cceeff"];
@@ -44,12 +45,13 @@ digraph {
         list_of_docs_csv [label="Info about each list of documents\nfound including nbr WPs listed.\n\n├── list_of_docs\l│    ├── list_of_docs.csv\l"];
         wps_missing_template [label="A template listing year, meeting,\nID number of missing WPs.\n\nwps_missing_from_ats/\nwps_missing_template.csv"];
         wps_missing_csv [label="Information about WPs missing\nfrom ATS database\n\nwps_missing_from_ats/\nwps_missing_{date}.csv"];
-        wp_pdfs [label="Working Paper pdfs\n\n└── wp_pdfs\l     ├── 1968\l     ├── 1989\l     ├── 1995\l     └── 1998\l",shape="folder"];
+        wp_pdfs [label="Working Paper PDFs\n\n└── wp_pdfs\l     ├── 1968\l     ├── 1989\l     ├── 1995\l     └── 1998\l",shape="folder"];
+        fr_pdfs [label="Final Report PDFs\n\n└── fr_pdfs\l     ├── ATCM1_fr001_e.pdf\l     ├── ...\l     └── ATCM45_fr001_e.pdf\l",shape="folder"];
     }
 
     { // processed-data nodes
         node [fillcolor="#eeeebb", style="filled"];
-        node_name [label="words\n\nfile.txt"];
+        // node_name [label="words\n\nfile.txt"];
     }
     }
     { // by hand
@@ -60,7 +62,7 @@ digraph {
     }
     { // Result
         node [shape="plaintext"];
-        dot_graph [label="Graph of connections between\n WPs, Recs, past and future meetings", fontsize="16"];
+        // dot_graph [label="Graph of connections between\n WPs, Recs, past and future meetings", fontsize="16"];
     }
 
     // connections
@@ -73,4 +75,5 @@ digraph {
     {wps_missing_template, list_of_docs_pdf} -> fill_in_missing_wps -> wps_missing_csv;
     fill_in_missing_wps -> wp_pdfs -> fill_in_missing_wps;
     ATAAD -> wp_pdfs;
+    ATS -> get_fr_pdfs -> fr_pdfs;
 }

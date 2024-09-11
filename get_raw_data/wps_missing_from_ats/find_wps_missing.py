@@ -12,7 +12,6 @@ import numpy as np
 
 # paths
 raw_data_dir = os.environ.get("DATA_RAW")
-results_dir = os.environ.get("RESULTS")
 
 
 # find the gaps in WP numbers

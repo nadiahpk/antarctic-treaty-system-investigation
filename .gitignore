@@ -1,4 +1,7 @@
 delete_me/
 
-# To be polite to Github. The urls can be found in wp_infos_*.
+# To be polite to Github. The URLs can be found in wp_infos_*.
 data_raw/wp_pdfs/
+
+# URLs can be generated using script /get_raw_data/final_reports/get_fr_pdfs.py
+data_raw/fr_pdfs/
