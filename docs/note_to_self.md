@@ -13,6 +13,7 @@
 ## Repeated names
 
 List of docs 1975 notes that nbr 47 does not appear to have been used, but it appears repeated in the ATS database, check
+Idea about how to find these https://claude.ai/chat/9807f100-77f3-4dc6-9f6b-dc6f146bdd7a
 
 # Links available in Final Reports
 
