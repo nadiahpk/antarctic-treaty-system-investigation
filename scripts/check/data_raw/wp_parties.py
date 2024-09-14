@@ -71,8 +71,7 @@ print(
     + "\n"
 )
 
-
-# instances where party changes between revisions
+# instances where parties changes between revisions
 # ---
 
 # check for WPs with no paper_revision listed
@@ -94,6 +93,20 @@ has_rev = set(
     ]
 )
 
+
+# instances where there seemed to be revisions missing
+# ---
+
+revs_missing = list()
+for meeting_year, paper_number in has_rev:
+    df_subset = df[
+        (df["meeting_year"] == meeting_year) & (df["paper_number"] == paper_number)
+    ]
+    if len(df_subset) != max(df_subset["paper_revision"]) + 1:
+        revs_missing.append((meeting_year, paper_number))
+
+print(f"Of the {len(has_rev)} WPs with at least 1 revision, {len(revs_missing)} are missing at least 1 revision.")
+
 # check each WP if parties changed between revisions
 parties_changed = list()
 for meeting_year, paper_number in has_rev:
@@ -111,8 +124,41 @@ if parties_changed:
         for meeting_year, paper_number in sorted(parties_changed)
     ]
     df_out = pd.concat(list_of_dfs)
-    path_out = os.path.join(results_dir, "checks/check_raw_data/wp_parties_change_between_revisions_template.csv")
+    path_out = os.path.join(results_dir, "check/data_raw/wp_parties_change_between_revisions_template.csv")
     df_out.to_csv(path_out, index=False)
     print(f"Parties sometimes changed between paper revisions. Info saved in {path_out}\n")
 else:
     print("There were no instances where parties changed between paper revisions.\n")
+
+
+# instances where agendas changed between revisions
+# ---
+
+# check for WPs with no agendas listed
+if not any(pd.isnull(df["agendas"])):
+    print("There are no gaps in the agendas entries.\n")
+    list_of_dfs = list()
+else:
+    list_of_dfs = [df[pd.isnull(df["agendas"])]]
+
+agendas_changed = list()
+for meeting_year, paper_number in has_rev:
+    df_subset = df[
+        (df["meeting_year"] == meeting_year) & (df["paper_number"] == paper_number)
+    ]
+    agendasS = set(df_subset["agendas"])
+    if len(agendasS) > 1:
+        agendas_changed.append((meeting_year, paper_number))
+
+# if agendas changed, write the changes to a file to check later
+if agendas_changed:
+    list_of_dfs += [
+        df[(df["meeting_year"] == meeting_year) & (df["paper_number"] == paper_number)]
+        for meeting_year, paper_number in sorted(agendas_changed)
+    ]
+    df_out = pd.concat(list_of_dfs)
+    path_out = os.path.join(results_dir, "check/data_raw/wp_agendas_change_between_revisions_template.csv")
+    df_out.to_csv(path_out, index=False)
+    print(f"Agendas sometimes changed between paper revisions. Info saved in {path_out}\n")
+else:
+    print("There were no instances where agendas changed between paper revisions.\n")
