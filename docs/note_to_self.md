@@ -1,4 +1,38 @@
-# OCR
+# Notes to self
+
+## Changes since preliminary model
+
+### Two ways to express coauthorship across revisions
+
+1. Each revision is a separate instnace of authorship/coauthorship
+    - will need to guess at the coauthorship of missing revisions
+1. Coauthorship is the union across revisions
+    - may miss bonus authors from missing revisions
+
+Problem with both is that Working Group papers, which ATS attributes to host country,
+are also really coauthored by everyone in that group, though we don't know who that is.
+
+### WPs info
+
+- 1961, recall bad fit of Michael's model, find the WPs that were missing from Parsa and Michael's data included all WPs with coauthorships
+
+## Future analysis
+
+### Examples of non-substantive WPs
+
+- place and date of next meeting
+- opening addresses, speeches, other statements by dignitaries
+- press release
+- list of participants, delegates, agenda items
+- list of agenda items
+- message of greetings to Antarctic stations
+- addendums and errata
+
+Also want to exclude Drafts of the Final Report and Final Reports.
+
+Might also identify by non-substantive Agenda Items.
+
+### OCR
 
 - situations:
     - Up to ATCM 19 (1995) inclusive, the pdfs have no layer of text, need LLM OCR 
@@ -7,17 +41,9 @@
 - For the final reports, ATCM27_fr001_e.pdf doesn't have embedded text, and ATCM28_fr001_e.pdf does
 - could use spelling mistakes per word to compare how text quality degenerates back in time
 
+### Links available in Final Reports
 
-# Quirks and other observations
-
-## Repeated names
-
-List of docs 1975 notes that nbr 47 does not appear to have been used, but it appears repeated in the ATS database, check
-Idea about how to find these https://claude.ai/chat/9807f100-77f3-4dc6-9f6b-dc6f146bdd7a
-
-# Links available in Final Reports
-
-## Summary
+#### Summary
 
 - Meetings up to and incl. 5 (1963) don't have standard-looking minutes.
     - Probably going to have to do these by hand
@@ -26,7 +52,7 @@ Idea about how to find these https://claude.ai/chat/9807f100-77f3-4dc6-9f6b-dc6f
 - Some early meetings have Agenda -> Rec but for previous meetings' Recs. Understand.
 - Need to do a few case studies of how to track through years
 
-## Details up to Meeting 10
+#### Details up to Meeting 10
 
 - Meeting 1 has the full text of recommendations inserted into the minutes.
     - Minutes restart at page 12.
@@ -57,6 +83,5 @@ Meeting 9 (1977),
     - It links the work to previous years' recommendations. For example, par. 13 says the Workign Group on oil considered Rec IX-6,
 the Report of the Group of Eco and other experts (Annex 6), and some other materials.
 
-# WPs info
 
-- 1961, recall bad fit of Michael's model, find the WPs that were missing from Parsa and Michael's data included all WPs with coauthorships
+## Misc to-do

@@ -10,13 +10,17 @@ I assumed that all revisions applied to the same Agenda Items as the first draft
 ### Working Paper revisions metadata and pdfs
 
 Of the 309 papers known to have at least 1 revision,
-163 of them have metadata (i.e., the information in `/data_raw/wp_infos_from_ats`) missing
+163 of them are missing metadata (i.e., the information in `/data_raw/wp_infos_from_ats`) 
 for at least 1 of the revisions (see `/scripts/check/data_raw/wp_parties.py` to perform the count).
 The PDFs for these revisions are also unknown / missing.
 
+### Other missing
+
+- 1975, WP 47, only have first page of pdf
+
 ## Known quirks
 
-### WPs with non-party author designated as submitted by the Meeting host country
+### In ATS database, WPs with non-party author designated as submitted by the Meeting host
 
 The ATS designates all Working Papers with non-party authors (e.g., WPs authored by a Working Group formed during the meeting) 
 as being submitted by the host country for that meeting (`/data_raw/wp_infos_from_ats/`).
@@ -34,7 +38,7 @@ and the Meeting Agenda and Working Group papers were designated as authored by A
 | 25  | Draft Recommendation on Man's Impact on the Antarctic Environment (Code of Conduct) | Australia | Environment Working Group |
 | 26  | Draft Recommendation on Operation of the Antarctic Treaty System | Australia | Working Party on Items 10 and 11 |
 
-For WPs from the ATAAD that did not have a party author,
+For WPs I obtained from the ATAAD that did not have a party author,
 I followed the convention set by the ATS database above and designated their author
 as the host-country of that meeting (`/data_raw/wps_missing_from_ats/`).
 
