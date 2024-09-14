@@ -10,14 +10,6 @@
 
 # Quirks and other observations
 
-## Authorship of no-author papers
-
-- I believe the ATS website has labelled Working Group and Secretariat Papers in 1983 as submitted by Australia, and one of the UK ones is actually Australian.
-    - Look for other instances of mislabelling.
-    - ... it appears that the host country is designated the author of the no-author papers, e.g., 1975, host is Norway, ATS attributes it to Norway
-    - Not the case for ATAAD, though
-    - Not a problem for my application, which only needs papers with more than 1 author, but make a note of it soemwhere
-
 ## Repeated names
 
 List of docs 1975 notes that nbr 47 does not appear to have been used, but it appears repeated in the ATS database, check

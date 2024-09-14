@@ -1,4 +1,0 @@
-When I can't find the revision, I copy the agenda items from the previous revision.
-Examples in wps_missing_2024_09_10.csv.
-I don't know of any counter-examples where the agenda item changed between revisions, but I should check that.
-I have seen papers change coauthors between revisions (increase). e.g., 1995 WP 21 increased from Chile to Chile + Norway
