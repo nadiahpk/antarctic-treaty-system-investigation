@@ -11,6 +11,7 @@ digraph {
         leg4 [label="multiple data files", fillcolor="lightgray", style="filled", shape=folder];
         leg1 [label="processed data", fillcolor="#eeeebb", style="filled"];
         leg0 [label="raw data", fillcolor="#ccddaa", style="filled"];
+        {rank="same" leg1 leg0 leg4 leg2 leg3};
     }
 
     // nodes
@@ -49,6 +50,7 @@ digraph {
         wp_pdfs [label="Working Paper PDFs\n\n└── wp_pdfs\l     ├── 1968\l     ├── 1989\l     ├── 1995\l     └── 1998\l",shape="folder"];
         fr_pdfs [label="Final Report PDFs\n\n└── fr_pdfs\l     ├── ATCM1_fr001_e.pdf\l     ├── ...\l     └── ATCM45_fr001_e.pdf\l",shape="folder"];
         year_countries_consultative [label="List countries and year\nthey became consultative\n\nyear_countries_consultative.csv"];
+        ATCMs [label="List ATCMs incl. year, name\n\nATCMs.csv"];
     }
 
     { // processed-data nodes
@@ -62,6 +64,7 @@ digraph {
         read_list_of_docs [label="Cross-check list of docs,\ncompile info about, incl.\ncount from each meeting"];
         fill_in_missing_wps [label="Fill in missing WP info, incl.\ntitle, authors, agenda items"];
         dload_year_countries_consultative [label="Copy from\nwww.ats.aq/devAS/Parties"];
+        dload_ATCMs [label="Copy list from\nwww.ats.aq"];
     }
     { // Result
         node [shape="plaintext"];
@@ -78,6 +81,8 @@ digraph {
     {wps_missing_template, list_of_docs_pdf} -> fill_in_missing_wps -> wps_missing_csv;
     fill_in_missing_wps -> wp_pdfs -> fill_in_missing_wps;
     ATAAD -> wp_pdfs;
-    ATS -> get_fr_pdfs -> fr_pdfs;
+    ATS_web -> get_fr_pdfs -> fr_pdfs;
     ATS_web -> dload_year_countries_consultative -> year_countries_consultative;
+    ATS_web -> dload_ATCMs -> ATCMs;
+    wps_missing_csv -> leg0 [style="invis"];
 }
