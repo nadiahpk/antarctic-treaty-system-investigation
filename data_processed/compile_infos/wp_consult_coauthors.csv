@@ -1,0 +1,442 @@
+meeting_year,meeting_type,meeting_number,meeting_name,paper_type,paper_number,consult_countries
+1961,ATCM,1,ATCM I,wp,9,Australia | Russian Federation
+1961,ATCM,1,ATCM I,wp,30,Chile | New Zealand
+1962,ATCM,2,ATCM II,wp,15,Australia | South Africa
+1964,ATCM,3,ATCM III,wp,4,Australia | Norway | Russian Federation | United Kingdom | United States
+1964,ATCM,3,ATCM III,wp,9,Chile | Russian Federation | United Kingdom
+1964,ATCM,3,ATCM III,wp,10,Australia | United Kingdom
+1964,ATCM,3,ATCM III,wp,16,Argentina | Belgium | United States
+1964,ATCM,3,ATCM III,wp,19,Australia | United Kingdom
+1964,ATCM,3,ATCM III,wp,21,United Kingdom | United States
+1964,ATCM,3,ATCM III,wp,30,United Kingdom | United States
+1964,ATCM,3,ATCM III,wp,32,New Zealand | United States
+1964,ATCM,3,ATCM III,wp,33,United Kingdom | United States
+1964,ATCM,3,ATCM III,wp,36,Australia | Russian Federation | United States
+1964,ATCM,3,ATCM III,wp,40,United Kingdom | United States
+1966,ATCM,4,ATCM IV,wp,1,United Kingdom | United States
+1966,ATCM,4,ATCM IV,wp,23,Australia | United States
+1966,ATCM,4,ATCM IV,wp,31,Australia | Russian Federation | United States
+1966,ATCM,4,ATCM IV,wp,34,Australia | Japan
+1966,ATCM,4,ATCM IV,wp,35,Argentina | United States
+1966,ATCM,4,ATCM IV,wp,38,New Zealand | United States
+1966,ATCM,4,ATCM IV,wp,40,Australia | Japan | New Zealand
+1966,ATCM,4,ATCM IV,wp,50,New Zealand | United Kingdom | United States
+1966,ATCM,4,ATCM IV,wp,51,New Zealand | United States
+1966,ATCM,4,ATCM IV,wp,52,New Zealand | United States
+1966,ATCM,4,ATCM IV,wp,53,New Zealand | United States
+1966,ATCM,4,ATCM IV,wp,54,New Zealand | United States
+1966,ATCM,4,ATCM IV,wp,55,New Zealand | United States
+1966,ATCM,4,ATCM IV,wp,56,Australia | Chile | United States
+1966,ATCM,4,ATCM IV,wp,57,United Kingdom | United States
+1966,ATCM,4,ATCM IV,wp,58,Argentina | Australia | New Zealand | United Kingdom | United States
+1966,ATCM,4,ATCM IV,wp,60,United Kingdom | United States
+1966,ATCM,4,ATCM IV,wp,61,Australia | Chile | United States
+1966,ATCM,4,ATCM IV,wp,62,Chile | United Kingdom
+1968,ATCM,5,ATCM V,wp,42,Norway | United Kingdom | United States
+1968,ATCM,5,ATCM V,wp,46,New Zealand | United Kingdom | United States
+1970,ATCM,6,ATCM VI,wp,4,Chile | United Kingdom
+1970,ATCM,6,ATCM VI,wp,6,Japan | United States
+1970,ATCM,6,ATCM VI,wp,11,Argentina | Australia | Russian Federation
+1970,ATCM,6,ATCM VI,wp,19,Chile | United States
+1970,ATCM,6,ATCM VI,wp,22,New Zealand | United Kingdom | United States
+1970,ATCM,6,ATCM VI,wp,23,Australia | France | New Zealand | United Kingdom
+1970,ATCM,6,ATCM VI,wp,26,Australia | United Kingdom
+1972,ATCM,7,ATCM VII,wp,35,Australia | Belgium | France | New Zealand | United Kingdom
+1972,ATCM,7,ATCM VII,wp,41,Australia | Argentina
+1972,ATCM,7,ATCM VII,wp,45,New Zealand | South Africa | United Kingdom | United States
+1972,ATCM,7,ATCM VII,wp,46,New Zealand | South Africa | United Kingdom | United States
+1972,ATCM,7,ATCM VII,wp,49,Belgium | New Zealand
+1972,ATCM,7,ATCM VII,wp,50,Norway | United Kingdom
+1972,ATCM,7,ATCM VII,wp,51,Belgium | Chile | France | New Zealand | Norway | South Africa | United Kingdom
+1972,ATCM,7,ATCM VII,wp,56,Australia | New Zealand | South Africa | United Kingdom | United States
+1975,ATCM,8,ATCM VIII,wp,9,New Zealand | United Kingdom | United States
+1975,ATCM,8,ATCM VIII,wp,14,New Zealand | South Africa | United Kingdom | United States
+1975,ATCM,8,ATCM VIII,wp,26,France | Norway | United Kingdom
+1975,ATCM,8,ATCM VIII,wp,29,Australia | Belgium | Chile | New Zealand
+1975,ATCM,8,ATCM VIII,wp,30,Australia | New Zealand
+1975,ATCM,8,ATCM VIII,wp,33,Argentina | United Kingdom
+1975,ATCM,8,ATCM VIII,wp,46,New Zealand | United Kingdom | United States
+1977,ATCM,9,ATCM IX,wp,19,Argentina | United Kingdom
+1977,ATCM,9,ATCM IX,wp,46,Argentina | United Kingdom
+1977,ATCM,9,ATCM IX,wp,68,Norway | Belgium
+1977,ATCM,9,ATCM IX,wp,73,Norway | United Kingdom
+1979,ATCM,10,ATCM X,wp,5,New Zealand | Russian Federation | United Kingdom | United States
+1979,ATCM,10,ATCM X,wp,31,United Kingdom | United States
+1981,ATCM,11,ATCM XI,wp,30,Australia | Chile | Germany | New Zealand | Norway | United Kingdom | United States | Argentina
+1981,ATCM,11,ATCM XI,wp,32,Argentina | Chile | United Kingdom
+1983,ATCM,12,ATCM XII,wp,9,Argentina | Chile
+1983,ATCM,12,ATCM XII,wp,14,Argentina | Chile | United Kingdom
+1983,ATCM,12,ATCM XII,wp,15,Argentina | Brazil | Chile
+1985,ATCM,13,ATCM XIII,wp,21,Belgium | Chile | France | Poland
+1985,ATCM,13,ATCM XIII,wp,28,Belgium | Chile | United Kingdom
+1985,ATCM,13,ATCM XIII,wp,31,Belgium | Brazil
+1985,ATCM,13,ATCM XIII,wp,33,Belgium | Brazil
+1987,ATCM,14,ATCM XIV,wp,27,New Zealand | United States
+1987,ATCM,14,ATCM XIV,wp,30,Argentina | Australia | Brazil | New Zealand | United Kingdom | United States
+1989,ATCM,15,ATCM XV,wp,2,Australia | France
+1989,ATCM,15,ATCM XV,wp,3,Australia | France
+1989,ATCM,15,ATCM XV,wp,6,France | Germany
+1989,ATCM,15,ATCM XV,wp,21,United States | United Kingdom
+1989,ATCM,15,ATCM XV,wp,28,Germany | United Kingdom
+1989,ATCM,15,ATCM XV,wp,36,United Kingdom | United States
+1989,ATCM,15,ATCM XV,wp,55,Argentina | Brazil | Chile | Peru | Spain | United Kingdom
+1989,ATCM,15,ATCM XV,wp,61,Chile | United Kingdom | Uruguay
+1991,ATCM,16,ATCM XVI,wp,36,Uruguay | China
+1991,ATCM,16,ATCM XVI,wp,38,Chile | United Kingdom
+1991,ATCM,16,ATCM XVI,wp,39,Chile | Spain
+1991,ATCM,16,ATCM XVI,wp,40,Norway | Chile
+1991,ATCM,16,ATCM XVI,wp,41,Japan | Germany
+1991,ATCM,16,ATCM XVI,wp,43,Argentina | Brazil | Chile | Ecuador | Peru | Uruguay
+1991,ATCM,16,ATCM XVI,wp,45,Chile | United Kingdom
+1992,ATCM,17,ATCM XVII,wp,1,Chile | France | Germany | Italy | Spain
+1992,ATCM,17,ATCM XVII,wp,26,Chile | Netherlands
+1992,ATCM,17,ATCM XVII,wp,29,Chile | Netherlands
+1994,ATCM,18,ATCM XVIII,wp,34,Italy | Korea (ROK) | United Kingdom
+1995,ATCM,19,ATCM XIX,wp,1,Belgium | Chile | France | Germany | United Kingdom
+1995,ATCM,19,ATCM XIX,wp,6,Argentina | Chile | New Zealand | United Kingdom
+1995,ATCM,19,ATCM XIX,wp,8,New Zealand | Norway | United Kingdom
+1995,ATCM,19,ATCM XIX,wp,12,Belgium | France | Germany | United Kingdom
+1995,ATCM,19,ATCM XIX,wp,13,Australia | Italy | South Africa
+1995,ATCM,19,ATCM XIX,wp,18,Chile | Ecuador | Peru | Uruguay
+1995,ATCM,19,ATCM XIX,wp,21,Chile | Norway
+1996,ATCM,20,ATCM XX,wp,8,Argentina | Italy
+1996,ATCM,20,ATCM XX,wp,14,Australia | Norway
+1996,ATCM,20,ATCM XX,wp,18,Netherlands | United Kingdom
+1997,ATCM,21,ATCM XXI,wp,13,New Zealand | South Africa
+1997,ATCM,21,ATCM XXI,wp,24,France | New Zealand
+1997,ATCM,21,ATCM XXI,wp,31,Argentina | Chile
+1998,ATCM,22,ATCM XXII - CEP I,wp,23,Netherlands | New Zealand
+1998,ATCM,22,ATCM XXII - CEP I,wp,26,Norway | United Kingdom
+1999,ATCM,23,ATCM XXIII - CEP II,wp,23,Germany | United Kingdom
+1999,ATCM,23,ATCM XXIII - CEP II,wp,35,Argentina | Brazil | Chile | Ecuador | Peru | Uruguay
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,22,Chile | United Kingdom
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,35,New Zealand | Italy
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,36,Argentina | Brazil | Chile | Peru | Uruguay
+2001,ATCM,24,ATCM XXIV - CEP IV,wp,37,Argentina | Brazil | Chile | Italy | New Zealand | Peru | Uruguay
+2002,ATCM,25,ATCM XXV - CEP V,wp,30,Australia | Netherlands
+2002,ATCM,25,ATCM XXV - CEP V,wp,45,Argentina | Norway | Peru
+2002,ATCM,25,ATCM XXV - CEP V,wp,46,Argentina | Australia
+2003,ATCM,26,ATCM XXVI - CEP VI,wp,11,Argentina | Australia
+2003,ATCM,26,ATCM XXVI - CEP VI,wp,12,Argentina | Australia
+2003,ATCM,26,ATCM XXVI - CEP VI,wp,14,Australia | Netherlands
+2003,ATCM,26,ATCM XXVI - CEP VI,wp,21,Australia | New Zealand
+2003,ATCM,26,ATCM XXVI - CEP VI,wp,22,Argentina | Italy | Netherlands | Norway | South Africa | Sweden | United Kingdom
+2003,ATCM,26,ATCM XXVI - CEP VI,wp,24,Chile | Norway | United Kingdom
+2003,ATCM,26,ATCM XXVI - CEP VI,wp,27,United States | New Zealand
+2003,ATCM,26,ATCM XXVI - CEP VI,wp,42,Germany | Australia | Finland | France | Italy | Netherlands | Spain | Sweden
+2004,ATCM,27,ATCM XXVII - CEP VII,wp,12,Argentina | Netherlands
+2004,ATCM,27,ATCM XXVII - CEP VII,wp,13,Argentina | Chile | Norway | Spain | United Kingdom | United States
+2004,ATCM,27,ATCM XXVII - CEP VII,wp,15,Argentina | Chile
+2004,ATCM,27,ATCM XXVII - CEP VII,wp,19,Chile | United States
+2004,ATCM,27,ATCM XXVII - CEP VII,wp,20,Australia | New Zealand
+2004,ATCM,27,ATCM XXVII - CEP VII,wp,29,Argentina | Australia
+2004,ATCM,27,ATCM XXVII - CEP VII,wp,30,Argentina | Australia | Netherlands
+2004,ATCM,27,ATCM XXVII - CEP VII,wp,31,Australia | Netherlands
+2004,ATCM,27,ATCM XXVII - CEP VII,wp,34,Belgium | Finland | France | Germany | Italy | Netherlands | Spain | Sweden | United Kingdom
+2004,ATCM,27,ATCM XXVII - CEP VII,wp,46,France | New Zealand | Norway | South Africa
+2004,ATCM,27,ATCM XXVII - CEP VII,wp,47,Argentina | Australia
+2004,ATCM,27,ATCM XXVII - CEP VII,wp,48,Australia | Japan
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,5,Chile | United States
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,7,Argentina | Chile
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,10,Australia | New Zealand
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,13,New Zealand | Sweden
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,20,Argentina | Chile | Norway | Spain | United Kingdom | United States
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,27,Australia | China | Russian Federation
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,31,Australia | United Kingdom | United States
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,32,Australia | Peru | United Kingdom
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,35,Brazil | Poland
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,46,Australia | Japan
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,56,Australia | Germany | Japan | Peru | Sweden | United Kingdom | United States
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,71,Belgium | Chile | France | Germany | Italy | Netherlands | South Africa
+2005,ATCM,28,ATCM XXVIII - CEP VIII,wp,72,Belgium | Chile | Finland | France | Germany | Italy | Netherlands | Norway | South Africa | Spain | Sweden
+2006,ATCM,29,ATCM XXIX - CEP IX,wp,2,United Kingdom | Argentina | Australia | Norway | United States
+2006,ATCM,29,ATCM XXIX - CEP IX,wp,8,Australia | China | Russian Federation
+2006,ATCM,29,ATCM XXIX - CEP IX,wp,15,Australia | New Zealand
+2006,ATCM,29,ATCM XXIX - CEP IX,wp,22,Brazil | China | Germany | Korea (ROK) | Russian Federation
+2006,ATCM,29,ATCM XXIX - CEP IX,wp,26,Brazil | Ecuador | Peru | Poland | United States
+2006,ATCM,29,ATCM XXIX - CEP IX,wp,33,New Zealand | United Kingdom | United States
+2006,ATCM,29,ATCM XXIX - CEP IX,wp,34,New Zealand | United Kingdom | United States
+2006,ATCM,29,ATCM XXIX - CEP IX,wp,42,United Kingdom | Australia | France
+2007,ATCM,30,ATCM XXX - CEP X,wp,8,Australia | China | India | Russian Federation
+2007,ATCM,30,ATCM XXX - CEP X,wp,9,Australia | China
+2007,ATCM,30,ATCM XXX - CEP X,wp,16,Sweden | France | New Zealand
+2007,ATCM,30,ATCM XXX - CEP X,wp,22,United Kingdom | United States
+2007,ATCM,30,ATCM XXX - CEP X,wp,33,New Zealand | United Kingdom | United States
+2007,ATCM,30,ATCM XXX - CEP X,wp,36,Netherlands | Belgium | France
+2007,ATCM,30,ATCM XXX - CEP X,wp,40,Argentina | Sweden
+2007,ATCM,30,ATCM XXX - CEP X,wp,45,Australia | New Zealand | United Kingdom
+2008,ATCM,31,ATCM XXXI - CEP XI,wp,1,Norway | Australia | United Kingdom
+2008,ATCM,31,ATCM XXXI - CEP XI,wp,2,Ukraine | United Kingdom
+2008,ATCM,31,ATCM XXXI - CEP XI,wp,6,France | Germany
+2008,ATCM,31,ATCM XXXI - CEP XI,wp,19,Australia | China
+2008,ATCM,31,ATCM XXXI - CEP XI,wp,26,New Zealand | United Kingdom | United States
+2008,ATCM,31,ATCM XXXI - CEP XI,wp,35,Norway | United Kingdom
+2008,ATCM,31,ATCM XXXI - CEP XI,wp,38,United Kingdom | Australia
+2008,ATCM,31,ATCM XXXI - CEP XI,wp,56,Argentina | Chile | Norway | Spain | United Kingdom | United States
+2008,ATCM,31,ATCM XXXI - CEP XI,wp,61,Chile | United States
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,1,Belgium | Brazil | Bulgaria | Finland | France | Germany | Netherlands | Sweden
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,2,United Kingdom | United States
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,4,Chile | Germany
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,5,Australia | France | New Zealand
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,6,Norway | United Kingdom
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,12,Australia | France | New Zealand
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,13,New Zealand | United States
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,18,Australia | New Zealand
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,19,Ukraine | United Kingdom
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,26,Netherlands | Belgium | Bulgaria | Finland | France | Germany | Spain | Sweden
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,28,Argentina | Chile | Norway | Spain | United Kingdom | United States
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,53,Argentina | Chile
+2009,ATCM,32,ATCM XXXII - CEP XII,wp,55,France | New Zealand | Russian Federation | United States
+2010,ATCM,33,ATCM XXXIII - CEP XIII,wp,25,United Kingdom | France | Ukraine
+2010,ATCM,33,ATCM XXXIII - CEP XIII,wp,39,United Kingdom | United States
+2010,ATCM,33,ATCM XXXIII - CEP XIII,wp,40,Chile | Germany
+2010,ATCM,33,ATCM XXXIII - CEP XIII,wp,43,United Kingdom | Chile | Spain
+2010,ATCM,33,ATCM XXXIII - CEP XIII,wp,44,Belgium | United Kingdom
+2010,ATCM,33,ATCM XXXIII - CEP XIII,wp,51,Argentina | Germany
+2010,ATCM,33,ATCM XXXIII - CEP XIII,wp,52,United States | United Kingdom
+2010,ATCM,33,ATCM XXXIII - CEP XIII,wp,56,United Kingdom | Argentina
+2010,ATCM,33,ATCM XXXIII - CEP XIII,wp,63,Norway | United Kingdom
+2010,ATCM,33,ATCM XXXIII - CEP XIII,wp,64,Argentina | Chile
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,6,United States | Chile
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,17,United Kingdom | Argentina | Chile | Norway | Spain | United States
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,21,Netherlands | United Kingdom
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,22,Netherlands | Germany
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,25,Germany | United States
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,26,United States | France | Germany | Netherlands | New Zealand
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,30,New Zealand | United States
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,36,Australia | France | New Zealand
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,37,Germany | Australia | Norway | United Kingdom | United States
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,39,New Zealand | United States
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,40,France | Australia | Spain
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,41,Chile | Germany
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,43,United Kingdom | Norway
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,44,United Kingdom | Norway
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,49,Chile | Argentina
+2011,ATCM,34,ATCM XXXIV - CEP XIV,wp,61,Australia | Uruguay
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,15,United Kingdom | Argentina | United States
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,16,United Kingdom | Argentina | France | Ukraine | United States
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,17,Germany | United Kingdom | United States
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,21,Australia | United Kingdom
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,23,Australia | New Zealand
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,25,Australia | France
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,30,Australia | Belgium | Netherlands | New Zealand | Norway | South Africa | Sweden | United Kingdom | United States
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,31,Australia | France | Spain
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,33,United Kingdom | Norway
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,37,United States | Norway
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,38,United States | New Zealand
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,39,Norway | United Kingdom
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,40,Italy | United States
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,42,Argentina | Chile | Norway | Spain | United Kingdom | United States
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,45,Argentina | Chile | Norway | Spain | United Kingdom | United States
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,50,New Zealand | Netherlands
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,52,Argentina | Chile
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,57,New Zealand | Australia
+2012,ATCM,35,ATCM XXXV - CEP XV,wp,59,Ecuador | Spain
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,4,Germany | South Africa
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,9,United Kingdom | Netherlands | Spain
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,15,United Kingdom | Argentina | Australia | United States
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,16,United Kingdom | Argentina | Australia | United States
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,20,United Kingdom | Argentina | Australia | United States
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,28,New Zealand | Australia | Belgium | Norway
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,31,Australia | Belgium
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,32,Australia | United Kingdom
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,39,Belgium | South Africa | United Kingdom
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,40,France | Belgium | Uruguay
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,41,France | Chile
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,42,France | Italy
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,46,United States | Argentina | Chile | Norway | Spain | United Kingdom
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,48,Belgium | Netherlands | Sweden
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,49,Belgium | Germany | Netherlands
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,51,Argentina | Uruguay
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,54,Brazil | Ecuador | Peru | Poland
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,55,Ecuador | Spain
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,62,United Kingdom | New Zealand | United States
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,63,Australia | China | India | Russian Federation
+2013,ATCM,36,ATCM XXXVI - CEP XVI,wp,67,Australia | Belgium
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,2,United Kingdom | Australia | France | Germany | Netherlands | Russian Federation | South Africa | Spain | Sweden
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,5,Germany | Poland
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,8,Norway | United Kingdom
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,9,Brazil | Belgium | Bulgaria | United Kingdom
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,10,New Zealand | Australia | Belgium | Norway
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,13,United States | Norway
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,17,Australia | New Zealand | Norway | United Kingdom | United States
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,18,Australia | China
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,21,Australia | China | India | Russian Federation
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,34,France | Belgium
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,35,United Kingdom | Argentina | Australia | Spain
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,39,Belgium | France
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,40,United States | Norway | United Kingdom
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,46,United Kingdom | Germany | Norway | Spain
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,47,Argentina | Chile
+2014,ATCM,37,ATCM XXXVII - CEP XVII,wp,48,France | United Kingdom | Chile | Finland | Netherlands | New Zealand | South Africa
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,6,United States | United Kingdom
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,8,New Zealand | United States
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,13,Australia | United Kingdom
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,16,United Kingdom | Norway
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,19,Czechia | United Kingdom
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,21,Australia | Belgium | New Zealand | Norway
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,24,New Zealand | United Kingdom | Netherlands | Norway
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,28,United Kingdom | France | New Zealand
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,34,United Kingdom | Argentina
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,35,New Zealand | Spain | United Kingdom | United States
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,36,New Zealand | Finland | Netherlands | Sweden
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,37,Norway | United Kingdom
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,38,United Kingdom | Czechia
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,39,United States | Australia
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,40,Australia | New Zealand | Norway | United Kingdom | United States
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,44,Norway | Australia | Chile | France | New Zealand | United Kingdom
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,49,Brazil | Argentina
+2015,ATCM,38,ATCM XXXVIII - CEP XVIII,wp,52,Bulgaria | Belgium | Brazil | Chile | United Kingdom
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,4,United Kingdom | Chile | Spain
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,6,United Kingdom | Norway
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,7,United Kingdom | United States
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,10,Australia | Japan | New Zealand | Norway | Spain | United States
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,15,Australia | United Kingdom
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,16,Australia | New Zealand | Norway | United States
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,20,Spain | United Kingdom | Belgium | Bulgaria | Chile | Italy
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,24,Bulgaria | Belgium | Brazil | Chile | United Kingdom
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,28,New Zealand | India
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,32,Ukraine | United Kingdom | United States | Argentina
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,33,United Kingdom | Chile
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,34,United Kingdom | Argentina | Chile
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,35,Norway | France | Netherlands | New Zealand | United Kingdom
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,38,United States | Argentina | Australia | Belgium | Chile | Czechia | Finland | France | Germany | Italy | Japan | Korea (ROK) | Netherlands | New Zealand | Norway | Poland | South Africa | Spain | Sweden | United Kingdom | Uruguay
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,42,Argentina | Chile | United States
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,44,Argentina | Chile
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,45,Ecuador | Spain
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,47,Argentina | Sweden
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,48,Argentina | Norway | Sweden | United Kingdom
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,50,Norway | Australia
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,52,Korea (ROK) | United Kingdom | Chile | Uruguay
+2016,ATCM,39,ATCM XXXIX - CEP XIX,wp,53,United Kingdom | United States
+2017,ATCM,40,ATCM XL - CEP XX,wp,3,Chile | New Zealand | Uruguay
+2017,ATCM,40,ATCM XL - CEP XX,wp,5,United Kingdom | Spain
+2017,ATCM,40,ATCM XL - CEP XX,wp,14,Norway | United States
+2017,ATCM,40,ATCM XL - CEP XX,wp,16,Norway | United States
+2017,ATCM,40,ATCM XL - CEP XX,wp,19,United Kingdom | Argentina | Chile
+2017,ATCM,40,ATCM XL - CEP XX,wp,21,United Kingdom | Norway
+2017,ATCM,40,ATCM XL - CEP XX,wp,24,Bulgaria | Belgium | Brazil | Chile | Spain | United Kingdom
+2017,ATCM,40,ATCM XL - CEP XX,wp,25,Australia | Japan | New Zealand | Norway | United States
+2017,ATCM,40,ATCM XL - CEP XX,wp,26,Korea (ROK) | Chile | United Kingdom | Uruguay
+2017,ATCM,40,ATCM XL - CEP XX,wp,27,Australia | Argentina | Norway | United Kingdom
+2017,ATCM,40,ATCM XL - CEP XX,wp,28,Australia | United Kingdom
+2017,ATCM,40,ATCM XL - CEP XX,wp,29,Australia | New Zealand
+2017,ATCM,40,ATCM XL - CEP XX,wp,32,New Zealand | United States | Argentina | Chile | France
+2017,ATCM,40,ATCM XL - CEP XX,wp,33,France | New Zealand | Norway
+2017,ATCM,40,ATCM XL - CEP XX,wp,36,Australia | Chile | China | France | Germany | India | Korea (ROK) | New Zealand | Norway | United Kingdom | United States
+2017,ATCM,40,ATCM XL - CEP XX,wp,37,United Kingdom | Australia | New Zealand | Norway | Spain
+2017,ATCM,40,ATCM XL - CEP XX,wp,39,Germany | United Kingdom
+2017,ATCM,40,ATCM XL - CEP XX,wp,40,Netherlands | Korea (ROK) | United States
+2017,ATCM,40,ATCM XL - CEP XX,wp,41,United Kingdom | Australia | Belgium | New Zealand | Norway
+2017,ATCM,40,ATCM XL - CEP XX,wp,43,Argentina | Chile
+2017,ATCM,40,ATCM XL - CEP XX,wp,46,Norway | Australia | United Kingdom
+2017,ATCM,40,ATCM XL - CEP XX,wp,47,Norway | United Kingdom
+2018,ATCM,41,ATCM XLI - CEP XXI,wp,12,Belgium | Chile | France | Germany | Netherlands | New Zealand | United States
+2018,ATCM,41,ATCM XLI - CEP XXI,wp,16,Argentina | Australia | Belgium | Chile | China | Czechia | France | Germany | Japan | New Zealand | Norway | Russian Federation | United Kingdom | United States
+2018,ATCM,41,ATCM XLI - CEP XXI,wp,18,Netherlands | United Kingdom
+2018,ATCM,41,ATCM XLI - CEP XXI,wp,20,Norway | United Kingdom
+2018,ATCM,41,ATCM XLI - CEP XXI,wp,22,United Kingdom | United States
+2018,ATCM,41,ATCM XLI - CEP XXI,wp,25,Argentina | Chile | France | Norway
+2018,ATCM,41,ATCM XLI - CEP XXI,wp,32,United Kingdom | Argentina
+2018,ATCM,41,ATCM XLI - CEP XXI,wp,33,United States | Argentina | Chile | Norway | Spain | United Kingdom
+2018,ATCM,41,ATCM XLI - CEP XXI,wp,34,United Kingdom | Argentina | Norway | Sweden
+2018,ATCM,41,ATCM XLI - CEP XXI,wp,35,United Kingdom | Argentina
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,4,United States | Poland
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,7,Italy | United States
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,9,New Zealand | United States
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,19,Netherlands | United Kingdom
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,21,Norway | United Kingdom
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,25,Argentina | Norway | Sweden | United Kingdom
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,28,Argentina | Chile
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,30,Australia | China
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,33,Bulgaria | Belgium | Brazil | Chile | Spain | United Kingdom
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,34,Spain | United Kingdom | Argentina | France | New Zealand
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,35,United Kingdom | Netherlands
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,39,Argentina | Chile
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,41,France | Italy
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,43,France | Argentina | United Kingdom
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,44,Norway | Australia | New Zealand | United Kingdom
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,47,China | Italy | Korea (ROK)
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,51,France | Argentina | United States
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,52,Australia | Netherlands | New Zealand | Norway | Spain | United States
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,55,United Kingdom | Argentina | Australia | United States
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,56,Argentina | Chile | Norway | Spain | United Kingdom | United States
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,61,Norway | Italy | New Zealand | United States
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,63,Argentina | Sweden
+2019,ATCM,42,ATCM XLII - CEP XXII,wp,70,Australia | Czechia | United States
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,5,United States | United Kingdom | New Zealand | China | Australia | Norway
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,15,United Kingdom | Spain | Chile | Brazil | Belgium | Bulgaria
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,27,New Zealand | United Kingdom
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,31,Australia | China | India | Russian Federation
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,32,United Kingdom | Australia | Belgium | Finland | France | Germany | Netherlands | New Zealand | Norway | Spain | Sweden | United States
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,38,United States | Italy
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,39,Chile | Spain
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,40,United Kingdom | Argentina
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,41,France | Argentina
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,42,Argentina | Chile
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,43,Australia | Germany | New Zealand | Norway | Spain | United Kingdom | United States
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,44,New Zealand | United States
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,48,France | Argentina | United States
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,49,Spain | Bulgaria | Belgium | Brazil | Chile | United Kingdom
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,52,France | Australia | Belgium | Germany | United Kingdom | United States | South Africa
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,53,France | United Kingdom | Chile | Germany | South Africa
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,60,Argentina | Norway | United Kingdom
+2021,ATCM,43,ATCM XLIII - CEP XXIII,wp,63,New Zealand | Argentina | Australia | Chile | Norway | United Kingdom
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,7,India | Norway | United Kingdom
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,11,Australia | Germany | Italy | Sweden | United Kingdom | United States
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,12,Germany | United States
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,13,Germany | United States
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,16,Argentina | Australia | France | United States
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,21,Norway | United Kingdom
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,22,Ecuador | Spain | United States
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,23,Bulgaria | Belgium | Brazil | Chile | Spain | United Kingdom
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,25,France | United Kingdom | Chile | Germany | South Africa
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,26,Argentina | New Zealand | Norway | United Kingdom
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,28,United Kingdom | Australia | New Zealand | Norway | United States
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,29,United Kingdom | Australia | Belgium | Finland | France | Germany | Netherlands | Norway | Sweden | United States
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,33,United Kingdom | Netherlands
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,38,Belgium | United Kingdom
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,44,United Kingdom | Chile | Spain
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,46,United Kingdom | Spain
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,47,United Kingdom | South Africa
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,49,Ukraine | United Kingdom
+2022,ATCM,44,ATCM XLIV - CEP XXIV,wp,53,Argentina | Chile
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,11,Germany | United States
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,13,France | Netherlands | Belgium | Finland | Germany | India | New Zealand | Norway | Poland | Spain | United Kingdom
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,14,Australia | New Zealand | United Kingdom
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,15,Australia | Belgium | Netherlands | New Zealand | Norway | Sweden | United States
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,17,Netherlands | France | Belgium
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,19,France | Netherlands
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,21,Germany | India | Norway
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,25,Bulgaria | Belgium | Brazil | Chile | Czechia | Finland | India | Italy | Korea (ROK) | Poland | South Africa | Spain | United Kingdom | United States
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,27,New Zealand | United Kingdom | Norway
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,30,Australia | Finland | France | Germany | Netherlands | New Zealand | Norway | Spain | Sweden | United Kingdom | Uruguay
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,35,Norway | United Kingdom
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,36,Finland | United Kingdom | Spain | Germany | New Zealand | Norway | France
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,39,Norway | Germany | Australia | Belgium | China | Finland | India | Japan | Sweden | United States
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,44,Norway | Belgium | Finland | Germany | Japan | Netherlands | Sweden
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,46,Argentina | Finland | Norway
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,49,Australia | Italy | Korea (ROK) | New Zealand | United States
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,51,Chile | Spain
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,52,United Kingdom | France | Germany | United States
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,55,United States | Argentina | Australia | Belgium | Bulgaria | Chile | Czechia | Finland | France | Germany | India | Italy | Japan | Korea (ROK) | Netherlands | New Zealand | Norway | Peru | Poland | Spain | Sweden | Ukraine | United Kingdom | Uruguay
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,59,Brazil | Ecuador | Peru | Poland | United States
+2023,ATCM,45,ATCM XLV - CEP XXV,wp,60,Belgium | United Kingdom
+2024,ATCM,46,ATCM 46 - CEP 26,wp,2,Poland | United States
+2024,ATCM,46,ATCM 46 - CEP 26,wp,3,Finland | France | Germany | India | Netherlands | United Kingdom
+2024,ATCM,46,ATCM 46 - CEP 26,wp,4,Finland | France | Germany | India | Netherlands | United Kingdom
+2024,ATCM,46,ATCM 46 - CEP 26,wp,8,Germany | United States
+2024,ATCM,46,ATCM 46 - CEP 26,wp,9,United Kingdom | Chile | New Zealand | South Africa | United States
+2024,ATCM,46,ATCM 46 - CEP 26,wp,12,New Zealand | United States
+2024,ATCM,46,ATCM 46 - CEP 26,wp,13,Italy | Netherlands | United Kingdom
+2024,ATCM,46,ATCM 46 - CEP 26,wp,17,Argentina | United States
+2024,ATCM,46,ATCM 46 - CEP 26,wp,20,New Zealand | Norway | United Kingdom | United States
+2024,ATCM,46,ATCM 46 - CEP 26,wp,29,Bulgaria | Australia | Belgium | Brazil | Chile | Finland | France | India | Italy | Korea (ROK) | Poland | Spain | United Kingdom | United States | Uruguay
+2024,ATCM,46,ATCM 46 - CEP 26,wp,34,Australia | France | Germany | New Zealand | Norway | United Kingdom | United States
+2024,ATCM,46,ATCM 46 - CEP 26,wp,36,Norway | New Zealand | United Kingdom
+2024,ATCM,46,ATCM 46 - CEP 26,wp,38,Norway | United Kingdom
+2024,ATCM,46,ATCM 46 - CEP 26,wp,40,United Kingdom | Australia | Norway | New Zealand
+2024,ATCM,46,ATCM 46 - CEP 26,wp,50,United States | Australia | New Zealand
+2024,ATCM,46,ATCM 46 - CEP 26,wp,53,Italy | United States
+2024,ATCM,46,ATCM 46 - CEP 26,wp,54,Spain | Argentina
+2024,ATCM,46,ATCM 46 - CEP 26,wp,59,Argentina | Chile

@@ -18,7 +18,8 @@ digraph {
         node [fillcolor="lightgray", style="filled", shape="cylinder"];
         ATS [label="\nATS\ndatabase"];
         ATAAD [label="\nATAAD\ndatabase"];
-        {rank="source" ATS ATAAD};
+        ATS_web [label="\nATS\nwebsite"];
+        {rank="source" ATS ATAAD ATS_web};
     }
     { // Carlo's package
         node [style="rounded, filled", fillcolor="lightgray"];
@@ -47,6 +48,7 @@ digraph {
         wps_missing_csv [label="Information about WPs missing\nfrom ATS database\n\nwps_missing_from_ats/\nwps_missing_{date}.csv"];
         wp_pdfs [label="Working Paper PDFs\n\n└── wp_pdfs\l     ├── 1968\l     ├── 1989\l     ├── 1995\l     └── 1998\l",shape="folder"];
         fr_pdfs [label="Final Report PDFs\n\n└── fr_pdfs\l     ├── ATCM1_fr001_e.pdf\l     ├── ...\l     └── ATCM45_fr001_e.pdf\l",shape="folder"];
+        year_countries_consultative [label="List countries and year\nthey became consultative\n\nyear_countries_consultative.csv"];
     }
 
     { // processed-data nodes
@@ -59,6 +61,7 @@ digraph {
         search_list_of_docs [label="Search for documents that list\nWPs submitted to early\nATCMs (1961--2004)"];
         read_list_of_docs [label="Cross-check list of docs,\ncompile info about, incl.\ncount from each meeting"];
         fill_in_missing_wps [label="Fill in missing WP info, incl.\ntitle, authors, agenda items"];
+        dload_year_countries_consultative [label="Copy from\nwww.ats.aq/devAS/Parties"];
     }
     { // Result
         node [shape="plaintext"];
@@ -76,4 +79,5 @@ digraph {
     fill_in_missing_wps -> wp_pdfs -> fill_in_missing_wps;
     ATAAD -> wp_pdfs;
     ATS -> get_fr_pdfs -> fr_pdfs;
+    ATS_web -> dload_year_countries_consultative -> year_countries_consultative;
 }
