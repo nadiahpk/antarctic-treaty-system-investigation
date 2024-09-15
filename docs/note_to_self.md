@@ -16,6 +16,12 @@ are also really coauthored by everyone in that group, though we don't know who t
 
 - 1961, recall bad fit of Michael's model, find the WPs that were missing from Parsa and Michael's data included all WPs with coauthorships
 
+### To do
+
+- meeting 1961, WP 2 rev 0 is not a WP. Delete
+- meeting 1968, WP 42 rev 3 is not really authored by France but by a sub-Working Group. It is almost identical to previous revisions, though, so I guess what we do with this depends on the purpose.
+    - change authorship to "Sub-Working Group" or empty if we're interested in coauthorships
+
 ## Future analysis
 
 ### Examples of non-substantive WPs
@@ -38,6 +44,7 @@ Might also identify by non-substantive Agenda Items.
     - Up to ATCM 19 (1995) inclusive, the pdfs have no layer of text, need LLM OCR 
     - From ATCM 20-22 (1996-1998) inclusive, the pdfs have a layer of text, and it's passable but not perfect quality
     - From ATCM 23 (1997) onwards inclusive, the pdfs have a high-quality layer of text under them, and OCR should be fairly straightforward.
+- 2498 WPs total, with 1092 up to and incl. 1996
 - For the final reports, ATCM27_fr001_e.pdf doesn't have embedded text, and ATCM28_fr001_e.pdf does
 - could use spelling mistakes per word to compare how text quality degenerates back in time
 
