@@ -1,30 +1,30 @@
-"country","year_joined"
-"Argentina",1961
-"Australia",1961
-"Belgium",1961
-"Brazil",1983
-"Bulgaria",1998
-"Chile",1961
-"China",1985
-"Czechia",2014
-"Ecuador",1990
-"Finland",1989
-"France",1961
-"Germany",1981
-"India",1983
-"Italy",1987
-"Japan",1961
-"Korea (ROK)",1989
-"Netherlands",1990
-"New Zealand",1961
-"Norway",1961
-"Peru",1989
-"Poland",1977
-"Russian Federation",1961
-"South Africa",1961
-"Spain",1988
-"Sweden",1988
-"Ukraine",2004
-"United Kingdom",1961
-"United States",1961
-"Uruguay",1985
+ISO_code,country,year_joined
+AR,Argentina,1961
+AU,Australia,1961
+BE,Belgium,1961
+BR,Brazil,1983
+BG,Bulgaria,1998
+CL,Chile,1961
+CN,China,1985
+CZ,Czechia,2014
+EC,Ecuador,1990
+FI,Finland,1989
+FR,France,1961
+DE,Germany,1981
+IN,India,1983
+IT,Italy,1987
+JP,Japan,1961
+KR,Korea (ROK),1989
+NL,Netherlands,1990
+NZ,New Zealand,1961
+NO,Norway,1961
+PE,Peru,1989
+PL,Poland,1977
+RU,Russian Federation,1961
+ZA,South Africa,1961
+ES,Spain,1988
+SW,Sweden,1988
+UA,Ukraine,2004
+GB,United Kingdom,1961
+US,United States,1961
+UY,Uruguay,1985

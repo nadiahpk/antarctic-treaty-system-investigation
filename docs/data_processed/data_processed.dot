@@ -1,0 +1,63 @@
+digraph {
+	graph [rankdir=TD];
+	node [label="\N", shape=rectangle, color="black"];
+
+    // legend - separate out at end
+    subgraph cluster_legend {
+        label="Legend";
+        leg3 [label="by hand", fillcolor="#ffcccc", style="rounded, filled"];
+        // leg5 [label="scripts, fncs w. LLM", fillcolor="#cceeff", style="rounded, filled"];
+        leg2 [label="scripts, fncs", fillcolor="#bbccee", style="rounded, filled"];
+        leg4 [label="multiple data files", fillcolor="lightgray", style="filled", shape=folder];
+        leg1 [label="processed data", fillcolor="#eeeebb", style="filled"];
+        leg0 [label="raw data", fillcolor="#ccddaa", style="filled"];
+        {rank="same" leg1 leg0 leg4 leg2 leg3};
+    }
+
+    // nodes
+    { // raw data
+        rank="source"
+        node [fillcolor="#ccddaa", style="filled"];
+        wp_infos_ats [label="Info about WPs in ATS\n\l└── data_raw/wp_infos_from_ats\l     ├── wps_1961.csv\l     ├── ...\l     └── wps_2024.csv\l",shape="folder"];
+        wps_missing_csv [label="Information about WPs missing\nfrom ATS database\n\l└── data_raw/wps_missing_from_ats\l     └── wps_missing.csv\l"];
+        measure_infos_ats [label="Info about measures in ATS\n\l└── data_raw/measure_infos_from_ats\l     ├── measures_1961.csv\l     ├── ...\l     └── measures_2024.csv\l",shape="folder"];
+        year_countries_consultative [label="List countries and year\nthey became consultative\n\l└── data_raw\l     └── year_countries_consultative.csv\l"];
+        // measure_texts_ats [label="Full text of measures as\n found on ATS website\n\l├── measure_texts_from_ats\l│    ├── 1961\l│    │    ├── Recommendation_I.txt\l│    │    ├── Recommendation_II.txt\l│    │    ├── ...\l│    ├── ...\l│    ├── 2024\l",shape="folder"];
+        // list_of_docs_pdf [label="Documents that provide\na list of documents\nsubmitted to each ATCM\n\l├── list_of_docs\l│    ├── list_of_docs_1961.pdf\l│    ├── ...\l│    ├── list_of_docs_2001.pdf\l",shape="folder"];
+        // list_of_docs_csv [label="Info about each list of documents\nfound including nbr WPs listed.\n\n├── list_of_docs\l│    ├── list_of_docs.csv\l"];
+        // wps_missing_template [label="A template listing year, meeting,\nID number of missing WPs.\n\nwps_missing_from_ats/\nwps_missing_template.csv"];
+        // wp_pdfs [label="Working Paper PDFs\n\n└── wp_pdfs\l     ├── 1968\l     ├── 1989\l     ├── 1995\l     └── 1998\l",shape="folder"];
+        // fr_pdfs [label="Final Report PDFs\n\n└── fr_pdfs\l     ├── ATCM1_fr001_e.pdf\l     ├── ...\l     └── ATCM45_fr001_e.pdf\l",shape="folder"];
+        // ATCMs [label="List ATCMs incl. year, name\n\nATCMs.csv"];
+    }
+    { // scripts and functions
+        node [style="rounded, filled"];
+        { // No LLM
+            node [fillcolor="#bbccee"];
+            compile_wp_consult_coauthors [label="Compile all WP info\nto identify Consultative country\ncoauthorships.\n\l└── /scripts/process_data/compile_infos\l     └── wp_consult_coauthors.py\l"];
+            compile_measures_effective [label="Count nbr Measures passed\nat each ATCM and nbr that\nbecame Effective\n\l└── /scripts/process_data/compile_infos\l     └── measures_effective.py\l"];
+        }
+        { // LLM
+            node [fillcolor="#cceeff"];
+        }
+    }
+    { // processed-data nodes
+        node [fillcolor="#eeeebb", style="filled"];
+        wp_consult_coauthors [label="All ATCM WPs with\nmore than 1 Consultative\ncountry as a coauthor\n\l└── data_processed/compile_infos\l     └── wp_consult_coauthors.csv\l"];
+        corrns_wps [label="Compilation of errors found\nand corrections to WP info\n\l└── data_processed/corrections_by_hand\l     └── wp_infos.csv\l"];
+        measures_effective [label="List of Meeting years, nbr Measures\npassed, nbr Effective\n\l└── data_processed/compile_infos\l     └── measures_effective.csv\l"];
+    }
+    { // by hand
+        node [fillcolor="#ffcccc", style="rounded, filled"];
+        make_corrns_wps [label="By hand (to explain)"];
+    }
+    { // Result
+        node [shape="plaintext"];
+        // dot_graph [label="Graph of connections between\n WPs, Recs, past and future meetings", fontsize="16"];
+    }
+
+    // connections
+    make_corrns_wps -> corrns_wps;
+    {wp_infos_ats wps_missing_csv corrns_wps year_countries_consultative} -> compile_wp_consult_coauthors -> wp_consult_coauthors;
+    measure_infos_ats -> compile_measures_effective -> measures_effective;
+}

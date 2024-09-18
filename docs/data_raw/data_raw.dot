@@ -40,16 +40,16 @@ digraph {
         }
     { // raw data
         node [fillcolor="#ccddaa", style="filled"];
-        wp_infos_ats [label="Info about WPs in ATS\n\l└── wp_infos_from_ats\l     ├── wps_1961.csv\l     ├── ...\l     └── wps_2024.csv\l",shape="folder"];
-        measure_infos_ats [label="Info about measures in ATS\n\l├── measure_infos_from_ats\l│    ├── measures_1961.csv\l│    ├── ...\l│    ├── measures_2024.csv\l",shape="folder"];
+        wp_infos_ats [label="Info about WPs in ATS\n\l└── data_raw/wp_infos_from_ats\l     ├── wps_1961.csv\l     ├── ...\l     └── wps_2024.csv\l",shape="folder"];
+        measure_infos_ats [label="Info about measures in ATS\n\l└── data_raw/measure_infos_from_ats\l     ├── measures_1961.csv\l     ├── ...\l     └── measures_2024.csv\l",shape="folder"];
         measure_texts_ats [label="Full text of measures as\n found on ATS website\n\l├── measure_texts_from_ats\l│    ├── 1961\l│    │    ├── Recommendation_I.txt\l│    │    ├── Recommendation_II.txt\l│    │    ├── ...\l│    ├── ...\l│    ├── 2024\l",shape="folder"];
         list_of_docs_pdf [label="Documents that provide\na list of documents\nsubmitted to each ATCM\n\l├── list_of_docs\l│    ├── list_of_docs_1961.pdf\l│    ├── ...\l│    ├── list_of_docs_2001.pdf\l",shape="folder"];
         list_of_docs_csv [label="Info about each list of documents\nfound including nbr WPs listed.\n\n├── list_of_docs\l│    ├── list_of_docs.csv\l"];
         wps_missing_template [label="A template listing year, meeting,\nID number of missing WPs.\n\nwps_missing_from_ats/\nwps_missing_template.csv"];
-        wps_missing_csv [label="Information about WPs missing\nfrom ATS database\n\nwps_missing_from_ats/\nwps_missing_{date}.csv"];
+        wps_missing_csv [label="Information about WPs missing\nfrom ATS database\n\l└── data_raw/wps_missing_from_ats\l     └── wps_missing.csv\l"];
         wp_pdfs [label="Working Paper PDFs\n\n└── wp_pdfs\l     ├── 1968\l     ├── 1989\l     ├── 1995\l     └── 1998\l",shape="folder"];
         fr_pdfs [label="Final Report PDFs\n\n└── fr_pdfs\l     ├── ATCM1_fr001_e.pdf\l     ├── ...\l     └── ATCM45_fr001_e.pdf\l",shape="folder"];
-        year_countries_consultative [label="List countries and year\nthey became consultative\n\nyear_countries_consultative.csv"];
+        year_countries_consultative [label="List countries and year\nthey became consultative\n\l└── data_raw\l     └── year_countries_consultative.csv\l"];
         ATCMs [label="List ATCMs incl. year, name\n\nATCMs.csv"];
     }
 

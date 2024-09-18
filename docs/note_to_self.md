@@ -15,12 +15,33 @@ are also really coauthored by everyone in that group, though we don't know who t
 ### WPs info
 
 - 1961, recall bad fit of Michael's model, find the WPs that were missing from Parsa and Michael's data included all WPs with coauthorships
+    - actually made fit worse to include them (isolated pairs)
+- 1992, Michael's data includes n extra "Rules of Procedure" that is an "Other", not a Recommendation
+    - Also 1991 includes non-recs
+    - There's a bunch you can find in his db by setting RecNumber empty
 
 ### To do
 
 - meeting 1961, WP 2 rev 0 is not a WP. Delete
 - meeting 1968, WP 42 rev 3 is not really authored by France but by a sub-Working Group. It is almost identical to previous revisions, though, so I guess what we do with this depends on the purpose.
     - change authorship to "Sub-Working Group" or empty if we're interested in coauthorships
+
+- Just went through 1961 by hand, and could find no coauthorship mistakes
+- TODO 1962, 2008
+
+1977
+    - One issue is there was a Special Prepatory Meeting that isn't quite accounted for in the co-authorships ce1037b8-0905-4894-ac75-805bee3368cb-AU-ATADD-4-BB-AQ-282.pdf
+    - WP 10 is by SCAR
+    - WP 14 is by UK
+    - WP 16, 17 by France
+    - WP 19 Rev 1 is in Sp, but could be Argentiana
+    - 1977 WP 54 Rev 1, authors are both France and UK according to `list_of_docs_1977.pdf`; also according to pdf
+    - WP 68 is by Norway only, not Norway and Bel
+    - WP 60 is UK
+    - WP 74 is Chile
+
+    - Also, WP 79, 85 shows evidence of input from many countries
+
 
 ## Future analysis
 
