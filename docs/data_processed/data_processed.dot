@@ -36,6 +36,7 @@ digraph {
             node [fillcolor="#bbccee"];
             compile_wp_consult_coauthors [label="Compile all WP info\nto identify Consultative country\ncoauthorships.\n\l└── /scripts/process_data/compile_infos\l     └── wp_consult_coauthors.py\l"];
             compile_measures_effective [label="Count nbr Measures passed\nat each ATCM and nbr that\nbecame Effective\n\l└── /scripts/process_data/compile_infos\l     └── measures_effective.py\l"];
+            write_collab_triples [label="Count collaborations\nbetween Consultative countries\n\l└── scripts/process_data/compile_infos\l     └── write_collab_triples.py\l"];
         }
         { // LLM
             node [fillcolor="#cceeff"];
@@ -46,6 +47,7 @@ digraph {
         wp_consult_coauthors [label="All ATCM WPs with\nmore than 1 Consultative\ncountry as a coauthor\n\l└── data_processed/compile_infos\l     └── wp_consult_coauthors.csv\l"];
         corrns_wps [label="Compilation of errors found\nand corrections to WP info\n\l└── data_processed/corrections_by_hand\l     └── wp_infos.csv\l"];
         measures_effective [label="List of Meeting years, nbr Measures\npassed, nbr Effective\n\l└── data_processed/compile_infos\l     └── measures_effective.csv\l"];
+        collab_triples [label="Count of collaborations\nbetween Consultative countries\nfor each ATCM year\n\l└── data_processed/compile_infos\l     └── collab_triples.csv\l"];
     }
     { // by hand
         node [fillcolor="#ffcccc", style="rounded, filled"];
@@ -60,4 +62,5 @@ digraph {
     make_corrns_wps -> corrns_wps;
     {wp_infos_ats wps_missing_csv corrns_wps year_countries_consultative} -> compile_wp_consult_coauthors -> wp_consult_coauthors;
     measure_infos_ats -> compile_measures_effective -> measures_effective;
+    wp_consult_coauthors -> write_collab_triples -> collab_triples;
 }
