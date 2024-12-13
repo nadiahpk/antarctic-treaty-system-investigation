@@ -30,7 +30,8 @@ years = u.get_atcm_years()
 countD = {
     year: {
         "nbr_measures": len(df_meas[df_meas["year"] == year]),
-        "nbr_not_effective": len(df_meas[(df_meas["year"] == year) & (df_meas["status"] != "Effective")]),
+        "nbr_not_yet_effective": len(df_meas[(df_meas["year"] == year) & (df_meas["status"] == "Not_yet_effective")]),
+        "nbr_did_not_enter_into_effect": len(df_meas[(df_meas["year"] == year) & (df_meas["status"] == "Did_not_enter_into_effect")]),
         "nbr_effective": len(df_meas[(df_meas["year"] == year) & (df_meas["status"] == "Effective")]),
     }
     for year in years
@@ -40,7 +41,7 @@ countD = {
 # ---
 
 df_out = pd.DataFrame(countD).T.reset_index()
-df_out.columns = ["meeting_year", "nbr_measures", "nbr_not_effective", "nbr_effective"]
+df_out.columns = ["meeting_year", "nbr_measures", "nbr_not_yet_effective", "nbr_did_not_enter_into_effect", "nbr_effective"]
 # df_out["percentage_effective"] = (df_out["nbr_effective"] / df_out["nbr_measures"]) * 100
 
 # Sort the DataFrame by meeting_year

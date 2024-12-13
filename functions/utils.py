@@ -2,41 +2,35 @@ import numpy as np
 import pandas as pd
 import os
 from pathlib import Path
-from typing import Dict
+from typing import Dict, List, Any
 from collections import Counter
+import pydot
 
-def get_year_2_matD_given_span(
-    year_2_counters: Dict[tuple, int],
-    min_year: int,
-    max_year: int,
-    span_below: int,
-    span_above: int,
-) -> Dict[int, np.ndarray]:
+from calc_probability_consensus_2 import (
+    calc_probability_consensus as cython_calc_probabililty_consensus,
+)
 
-    years = [y for y in get_atcm_years() if min_year <= y <= max_year]
-    len_years = len(years)
+def calc_avg_brier_score(R_b, pars, nbr_measures, nbr_effective, year_2_matD):
+    R, b = R_b
+    pars["raw_background_influence"] = b
+    pars["consensus_threshold_radius"] = R
 
-    # sum collaborations from year-span_below to year+span_above
-    y2c = {
-        years[i]: sum(
-            [
-                year_2_counters[yrs_to_include]
-                for yrs_to_include in years[i - span_below : i + span_above + 1]
-            ],
-            Counter(),
-        )
-        for i in range(span_below, len_years - span_above)
-    }
+    assert(len(nbr_measures) == len(nbr_effective) == len(year_2_matD))
 
-    # let the years outside have the same value as the nearest edge
-    for i in range(span_below):
-        y2c[years[i]] = y2c[years[span_below]]
-    for i in range(len_years - span_above, len_years):
-        y2c[years[i]] = y2c[years[len_years - span_above - 1]]
+    # calculate p_t(R, B, span_lo, span_hi) in vector, one for each year
+    prob_passV = [
+        cython_calc_probabililty_consensus(pars, matrix.astype(np.float64))
+        for year, matrix in year_2_matD.items()
+    ]
 
-    year_2_matD = get_collaboration_matrices_from_counters(y2c)
+    # short Brier score for binary events
+    avg_brier = np.mean([
+        (1 / nbr_tot) * (nbr_hits * (p - 1)**2 + (nbr_tot - nbr_hits) * p**2)
+        for p, nbr_hits, nbr_tot in zip(prob_passV, nbr_effective, nbr_measures)
+    ])
 
-    return year_2_matD
+    return avg_brier
+
 
 def convert_year_2_triples_to_year_2_counters(
     year_2_collab_triples: Dict[int, str],
@@ -362,3 +356,99 @@ def convert_country_code(country_input: str) -> str:
     country_output = df_subset.iloc[0][output_type]
 
     return country_output
+
+def get_year_2_matD_given_span(
+    year_2_counters: Dict[tuple, int],
+    min_year: int,
+    max_year: int,
+    span_below: int,
+    span_above: int,
+) -> Dict[int, np.ndarray]:
+
+    years = [y for y in get_atcm_years() if min_year <= y <= max_year]
+    len_years = len(years)
+
+    # sum collaborations from year-span_below to year+span_above
+    y2c = {
+        years[i]: sum(
+            [
+                year_2_counters[yrs_to_include]
+                for yrs_to_include in years[i - span_below : i + span_above + 1]
+            ],
+            Counter(),
+        )
+        for i in range(span_below, len_years - span_above)
+    }
+
+    # let the years outside have the same value as the nearest edge
+    for i in range(span_below):
+        y2c[years[i]] = y2c[years[span_below]]
+    for i in range(len_years - span_above, len_years):
+        y2c[years[i]] = y2c[years[len_years - span_above - 1]]
+
+    # note that this will also trim the matrix as needed
+    # to only those countries consultative in that year
+    year_2_matD = get_collaboration_matrices_from_counters(y2c)
+
+    return year_2_matD
+
+def create_dot_file_string(
+    consults: List[int],
+    edges: Dict[tuple, float],
+    edge_opacity: float = 60,
+) -> str:
+
+    graph = create_pydot_graph(
+        consults,
+        edges,
+        edge_opacity,
+    )
+    raw_dot_file = graph.to_string()
+
+    return raw_dot_file
+
+def create_pydot_graph(
+    consults: List[int],
+    edges: Dict[tuple, float],
+    edge_opacity: float = 60,
+) -> Any:
+
+    # create a pydot graph
+
+    # initialise and set defaults
+    graph = pydot.Dot("my_graph", graph_type="graph")
+    graph.set_node_defaults(
+        shape="circle",
+        fixedsize="true", # make labels a tight fit
+        width=0.4
+    )
+    graph.set_edge_defaults(color=f"#0000FF{opacity_to_hex(edge_opacity)}")
+
+    # add all nodes
+    for country in consults:
+        graph.add_node(pydot.Node(country, label=country))
+
+    # add all edges
+    for (country_1, country_2), weight in edges.items():
+        graph.add_edge(pydot.Edge(
+            country_1, 
+            country_2, 
+            len = 1/weight**(1/2), # neato uses len, not weight, for springs
+            penwidth = weight,
+        ))
+
+    return graph
+
+def opacity_to_hex(
+    opacity_percent: float
+) -> str:
+    """
+    Convert opacity percentage (0-100) to hex (00-FF).
+
+    Example usage:
+
+    opacity = opacity_to_hex(70)  # Returns 'B2'
+    color_code = f"#0000FF{opacity}"  # Makes '#0000FFB2'
+    """
+    hex_value = format(int(opacity_percent * 255 / 100), '02X')
+    return hex_value
