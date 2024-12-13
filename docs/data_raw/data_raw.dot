@@ -18,13 +18,13 @@ digraph {
     { // databases
         node [fillcolor="lightgray", style="filled", shape="cylinder"];
         ATS [label="\nATS\ndatabase"];
-        ATAAD [label="\nATAAD\ndatabase"];
+        ATADD [label="\nATADD\ndatabase"];
         ATS_web [label="\nATS\nwebsite"];
-        {rank="source" ATS ATAAD ATS_web};
+        {rank="source" ATS ATADD ATS_web};
     }
     { // Carlo's package
-        node [style="rounded, filled", fillcolor="lightgray"];
-        adg [label="github.com/carlohamalainen/\nantarctic-database-go"];
+        node [style="rounded, filled", fillcolor="#cceeff"];
+        adg [label="Carlo's Go API for ATS database\n\ngithub.com/carlohamalainen/\nantarctic-database-go"];
     }
     { // scripts and functions
         node [style="rounded, filled"];
@@ -75,12 +75,12 @@ digraph {
     ATS -> adg -> {getwps, getmeasures};
     getwps -> wp_infos_ats;
     getmeasures -> {measure_infos_ats, measure_texts_ats};
-    {ATS, ATAAD} -> search_list_of_docs -> list_of_docs_pdf;
+    {ATS, ATADD} -> search_list_of_docs -> list_of_docs_pdf;
     {wp_infos_ats, list_of_docs_pdf} -> read_list_of_docs -> list_of_docs_csv;
     {wp_infos_ats, list_of_docs_csv} -> find_wps_missing -> wps_missing_template;
     {wps_missing_template, list_of_docs_pdf} -> fill_in_missing_wps -> wps_missing_csv;
     fill_in_missing_wps -> wp_pdfs -> fill_in_missing_wps;
-    ATAAD -> wp_pdfs;
+    ATADD -> wp_pdfs;
     ATS_web -> get_fr_pdfs -> fr_pdfs;
     ATS_web -> dload_year_countries_consultative -> year_countries_consultative;
     ATS_web -> dload_ATCMs -> ATCMs;

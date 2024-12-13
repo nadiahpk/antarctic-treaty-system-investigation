@@ -63,4 +63,7 @@ digraph {
     {wp_infos_ats wps_missing_csv corrns_wps year_countries_consultative} -> compile_wp_consult_coauthors -> wp_consult_coauthors;
     measure_infos_ats -> compile_measures_effective -> measures_effective;
     wp_consult_coauthors -> write_collab_triples -> collab_triples;
+
+    // legend at bottom
+    collab_triples -> leg0 [style="invis"];
 }
