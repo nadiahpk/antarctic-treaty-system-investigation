@@ -1,0 +1,15 @@
+meeting_year,meeting_type,meeting_number,meeting_name,paper_type,paper_number,paper_revision,delete_row,incorrect_columns,corrected_values,ambiguous_how_to_resolve,comments
+1961,ATCM,1,ATCM I,wp,2,0,TRUE,,,FALSE,"ATS considers ‘Meeting Proposals’ and ‘Meeting Explanatory Memoranda’ as ‘Working Papers’, and therefore what they designated WP 2 rev. 0 ‘Rules of Procedure’ should not be included in the list of WPs (see also check/wp_infos/wp_parties_change_between_revisions.csv)"
+1968,ATCM,5,ATCM V,wp,42,3,FALSE,paper_number || paper_revision,0 || 0,TRUE,"parties designated ‘France’ bc submitted by Sub-Working Group and France is the host-country for the Meeting, but convention is that drafts produced by Working Groups don’t count as revisions  (see also check/wp_infos/wp_parties_change_between_revisions.csv)"
+1962,ATCM,2,ATCM II,wp,20,0,FALSE,agendas,ATCM 11,FALSE,Rev. 1 is marked as a correction and is almost identical to Rev. 0 except title and Agenda Item changes (see also check/wp_infos/wp_agendas_change_between_revisions.csv)
+1966,ATCM,4,ATCM IV,wp,61,0,FALSE,agendas,ATCM 12,FALSE,"from FR, this would fall under 12 Other Business (see also check/wp_infos/wp_agendas_change_between_revisions.csv)"
+1970,ATCM,6,ATCM VI,wp,6,0,FALSE,agendas,ATCM 16,FALSE,"from FR, this would fall under 16 Exchange of Information on Ocean Research Vessels (see also check/wp_infos/wp_agendas_change_between_revisions.csv)"
+1970,ATCM,6,ATCM VI,wp,11,2,FALSE,agendas,ATCM 6,FALSE,"from FR, this would fall under 6 Antarctic Meteorology (see also check/wp_infos/wp_agendas_change_between_revisions.csv)"
+1989,ATCM,15,ATCM XV,wp,67,2,FALSE,agendas,ATCM 12,FALSE,agendas from front page of WP (see also check/wp_infos/wp_agendas_change_between_revisions.csv)
+1977,ATCM,9,ATCM IX,wp,10,0,FALSE,parties,SCAR,FALSE,parties determined from Working Paper pdfs (wp_pdfs/1977)
+1977,ATCM,9,ATCM IX,wp,14,0,FALSE,parties,United Kingdom,FALSE,parties determined from Working Paper pdfs (wp_pdfs/1977)
+1977,ATCM,9,ATCM IX,wp,16,0,FALSE,parties,France,FALSE,parties determined from Working Paper pdfs (wp_pdfs/1977)
+1977,ATCM,9,ATCM IX,wp,17,0,FALSE,parties,France,FALSE,parties determined from Working Paper pdfs (wp_pdfs/1977)
+1977,ATCM,9,ATCM IX,wp,54,1,FALSE,parties,France | United Kingdom,FALSE,parties determined from Working Paper pdfs (wp_pdfs/1977)
+1977,ATCM,9,ATCM IX,wp,68,0,FALSE,parties,Norway,FALSE,parties determined from Working Paper pdfs (wp_pdfs/1977)
+1977,ATCM,9,ATCM IX,wp,74,0,FALSE,parties,Chile,FALSE,parties determined from Working Paper pdfs (wp_pdfs/1977)

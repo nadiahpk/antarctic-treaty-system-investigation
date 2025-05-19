@@ -5,3 +5,7 @@ data_raw/wp_pdfs/
 
 # URLs can be generated using script /get_raw_data/final_reports/get_fr_pdfs.py
 data_raw/fr_pdfs/
+
+# skip too-large docs (I have multiple copies of these, and smaller ones avail in repo)
+too_large/
+
